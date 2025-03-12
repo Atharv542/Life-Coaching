@@ -8,6 +8,7 @@
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
     "ajv": "^8.17.1",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.4.10",
     "myapp": "file:",
     "react": "^19.0.0",
