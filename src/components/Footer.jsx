@@ -6,16 +6,16 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Life Coaching. All rights reserved.</p>
+     
       <div className="footer-links">
-        <FaInstagram className="icon" />
-
-        <a href="https://www.instagram.com/sachin.kaintura?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer">Instagram</a>
-        <FaFacebook className="icon"  />
-        <a href="https://www.facebook.com/share/15iXo19Mni/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Facebook</a>
-        <FaLinkedin className="icon" />
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      
+        <a href="https://www.instagram.com/sachin.kaintura?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer"><img className='icon' src='/instagram.png'/></a>
+        
+        <a href="https://www.facebook.com/share/15iXo19Mni/?mibextid=wwXIfr" target="_blank" rel="noreferrer"><img className='icon' src='/facebook2.png'/></a>
+        
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer"><img className='icon' src='/linkedin.png'/></a>
       </div>
+      <p className='footer-para'>&copy; {new Date().getFullYear()} Life Coaching. All rights reserved.</p>
     </footer>
   );
 };

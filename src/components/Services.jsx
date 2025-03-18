@@ -7,46 +7,61 @@ const Services = () => {
 
   return (
     <section className="services">
-      <h2 className="section-title">
-        Our Services <span className="main-icon">🏢</span>
-      </h2>
+      <h1 className="section-title">
+        Our Services
+      </h1>
 
       <div className="services-grid">
         <div className="service-card">
-          <img src="/Personal.jpeg" alt="Personal Development" />
-          <h3 className="service-title">Personal Development</h3>
+         <div className='service-img'>
+         <img src="/Personal.jpeg" alt="Personal Development" />
+         </div>
+         <div className='service-div'>
+         <h3 className="service-title">Personal Development</h3>
           <p className="service-description">
-            Helping you grow personally.
+            Helping you grow personally 
           </p>
           <button className="know-more-btn" onClick={()=> navigate("/personalDevelopment")}>Know More</button>
+         </div>
         </div>
 
         <div className="service-card">
-          <img src="/Carrer.jpeg" alt="Career Coaching" />
-          <h3 className="service-title">Career Coaching</h3>
+         <div className='service-img'>
+         <img src="/Personal.jpeg" alt="Personal Development" />
+         </div>
+         <div className='service-div'>
+         <h3 className="service-title">Career Coaching</h3>
           <p className="service-description">
-            Guidance to help you advance in your career.
+            Helping you grow personally 
           </p>
-          <button className="know-more-btn"onClick={()=> navigate("/careerCoaching")}>Know More</button>
+          <button className="know-more-btn" onClick={()=> navigate("/careerCoaching")}>Know More</button>
+         </div>
         </div>
 
         <div className="service-card">
-          <img src="/Home2.jpeg" alt="Confidence Building" />
-          <h3 className="service-title">Confidence Building</h3>
+         <div className='service-img'>
+         <img src="/Personal.jpeg" alt="Personal Development" />
+         </div>
+          <div className='service-div'>
+          <h3 className="service-title">Mindfulness and Spiritual Coaching</h3>
           <p className="service-description">
-            Boost your self-esteem and achieve more.
+            Helping you grow personally 
           </p>
-          <button className="know-more-btn">Know More</button>
+          <button className="know-more-btn" onClick={()=> navigate("/mindfullCoaching")}>Know More</button>
+          </div>
+          
         </div>
-
-        <div className="service-card">
-          <img src="/Goal.jpeg" alt="Goal Setting" />
-          <h3 className="service-title">Goal Setting</h3>
+        {/*<div className="service-card">
+         <div className='service-img'>
+         <img src="/Personal.jpeg" alt="Personal Development" />
+         </div>
+          
+          <h3 className="service-title">Spiritual Coaching</h3>
           <p className="service-description">
-            Create achievable goals and stick to them.
+            Helping you grow personally 
           </p>
-          <button className="know-more-btn">Know More</button>
-        </div>
+          <button className="know-more-btn" onClick={()=> navigate("/personalDevelopment")}>Know More</button>
+        </div>*/}
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ const Home = () => {
 
       <div className="hero-content">
         {/* Personalized Greeting */}
-        <h1 className="hero-greeting">Hey There! <span className="highlight-text">I am Sachin Kaintura</span></h1>
+        <h1 className="hero-greeting">Hey There! I am <span className="highlight-text">Sachin Kaintura</span></h1>
 
         <h2 className="hero-title">
           Transform Your <span className="highlight-text">Mindset & Life</span>
@@ -17,7 +17,7 @@ const Home = () => {
         </p>
         <a href="/booking" target="_blank">
           <button className="hero-button">
-            🚀 Book Your Free Strategy Call
+            Book Your Free Strategy Call
           </button>
         </a>
       </div>

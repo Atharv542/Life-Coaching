@@ -15,7 +15,7 @@ const AboutMe = () => {
 
   return (
     <section className={`about ${fadeIn ? "fade-in" : ""}`}>
-      <h2 className="section-title">About Me</h2>
+      <h2 className="about-title">About Me</h2>
       <div className="aboutMeBox">
         <img src="/About Me.jpeg" alt="About Me" className="about-image" />
         <div className="about-description">

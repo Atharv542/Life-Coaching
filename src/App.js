@@ -11,6 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { Toaster } from "react-hot-toast";
 import PersonalDevelopment from './components/PersonalDevelopment';
 import CareerCoaching from './components/CareerCoaching';
+import MindfulnessCoaching from './components/Mindfulness';
 
 function App() {
   // Create refs for each section
@@ -56,6 +57,7 @@ function App() {
           <Route path="/booking" element={<BookingForm />} />
           <Route path="/personalDevelopment" element={<PersonalDevelopment />} />
           <Route path="/careerCoaching" element={<CareerCoaching />} />
+          <Route path="/mindfullCoaching" element={<MindfulnessCoaching/>}/>
         </Routes>
       </div>
       <Toaster position="top-center" reverseOrder={false} />

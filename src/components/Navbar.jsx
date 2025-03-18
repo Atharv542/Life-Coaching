@@ -5,12 +5,18 @@ const Navbar = ({ scrollToSection }) => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <div  className="">Life Coaching 🐦‍🔥</div>
+        <div  className="logo">Life Coaching </div>
       </div>
       <ul className="navbar-menu">
         <li>
-          <Link to="/" className="nav-link">
+          <Link to="/"   className="nav-link">
             Home
+          </Link>
+        </li>
+        
+        <li>
+          <Link to="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className="nav-link">
+            Services 
           </Link>
         </li>
         <li>
@@ -18,16 +24,16 @@ const Navbar = ({ scrollToSection }) => {
             About 
           </Link>
         </li>
-        <li>
-          <Link to="/" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }} className="nav-link">
-            Services 
-          </Link>
-        </li>
-        <li>
+        {/*<li>
           <Link to="/booking" className="nav-link">
             Let's Talk 
           </Link>
         </li>
+        {/*<li>
+          <Link to="/" className="nav-link">
+            Payment
+          </Link>
+        </li>*/}
       </ul>
     </nav>
   );

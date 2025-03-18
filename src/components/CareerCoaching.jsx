@@ -39,9 +39,9 @@ const CareerCoaching = () => {
             Career coaching helps you navigate your professional journey, whether you're looking for a promotion, a career change, or leadership growth. Let’s align your work with your passions and strengths.
           </p>
           <ul className="hero-benefits">
-            <li>🚀 Unlock career growth</li>
-            <li>🎯 Develop leadership skills</li>
-            <li>💡 Gain clarity and confidence</li>
+            <li>🚀 Career Planning</li>
+            <li>🎯 Skill Development</li>
+            <li>💡 Networking</li>
           </ul>
           <button className="hero-btn">Get Started</button>
           <motion.div

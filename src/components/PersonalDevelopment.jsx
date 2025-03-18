@@ -34,7 +34,6 @@ const PersonalDevelopment = () => {
 
   return (
     <div className="container">
-      {/* Hero Section */}
       <div className="hero">
   <div className="hero-text">
     <h1>Personal Development</h1>
