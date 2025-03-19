@@ -19,7 +19,7 @@ const Services = () => {
          <div className='service-div'>
          <h3 className="service-title">Personal Development</h3>
           <p className="service-description">
-            Helping you grow personally 
+          Unlocking Your Potential: Transforming Dreams into Achievable Realities.
           </p>
           <button className="know-more-btn" onClick={()=> navigate("/personalDevelopment")}>Know More</button>
          </div>
@@ -30,9 +30,9 @@ const Services = () => {
          <img src="/Personal.jpeg" alt="Personal Development" />
          </div>
          <div className='service-div'>
-         <h3 className="service-title">Career Coaching</h3>
+         <h3 className="service-title">Career & Executive Presence </h3>
           <p className="service-description">
-            Helping you grow personally 
+          Command Your Success: Cultivating Executive Presence for Leadership Impact. 
           </p>
           <button className="know-more-btn" onClick={()=> navigate("/careerCoaching")}>Know More</button>
          </div>
@@ -43,9 +43,9 @@ const Services = () => {
          <img src="/Personal.jpeg" alt="Personal Development" />
          </div>
           <div className='service-div'>
-          <h3 className="service-title">Mindfulness and Spiritual Coaching</h3>
+          <h3 className="service-title">Mindfulness and Spiritual</h3>
           <p className="service-description">
-            Helping you grow personally 
+          Awaken Your Soul: Cultivating Mindfulness for Spiritual Harmony. 
           </p>
           <button className="know-more-btn" onClick={()=> navigate("/mindfullCoaching")}>Know More</button>
           </div>

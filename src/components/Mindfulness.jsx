@@ -8,14 +8,11 @@ const MindfulnessCoaching = () => {
       {/* Hero Section */}
       <div className="hero">
         <div className="hero-text">
-          <h1>Embrace the Present, Transform Your Future</h1>
-          <p className="hero-description">
-            Discover the power of mindfulness to enhance your well-being and focus. Our sessions
-            guide you through practical techniques to bring clarity and balance into your life.
-          </p>
-          <p className="quote">
-            “The present moment is the only time over which we have dominion.” – Thích Nhất Hạnh
-          </p>
+        <h1> Mindfullness & Spiritual</h1>
+        <p className="hero-description">
+          Mindfulness is the practice of staying fully present in the moment, helping you manage stress, improve focus, and enhance your decision-making ability. In our sessions, you will learn tools and techniques to cultivate mindfulness, creating a greater sense of calm and clarity in both your professional and personal life. This awareness allows you to approach challenges with resilience, maintain composure under pressure, and make thoughtful, intentional decisions.
+        </p>
+        <button className="hero-btn">Get Started</button>
         </div>
         <img src="/mind.jpg" alt="Mindfulness" className="hero-image" />
       </div>
@@ -26,24 +23,22 @@ const MindfulnessCoaching = () => {
         <div className="practices-grid">
   <div className="practice-item">
     <img src="/breath.jpg" alt="Breathing Exercise" className="practice-image" />
-    <h3>Breathing Exercises</h3>
+    <h3>Meditation Practices</h3>
     <hr className="divider"/>
-    <p>Guided breathing exercises help you stay calm and focused.</p>
-    <blockquote>“Just breathe. You are strong enough to handle your challenges.”</blockquote>
+    <p>Can help you cultivate inner peace, increase self-awareness, and clear mental blockages, leading to greater emotional healing and clarity.</p>
   </div>
   <div className="practice-item">
     <img src="/meditation.jpg" alt="Meditation" className="practice-image" />
-    <h3>Meditation Tips</h3>
+    <h3>Cultivating Spiritual Connection and Inner Peace </h3>
     <hr className="divider"/>
-    <p>Meditation tips to enhance mindfulness and inner peace.</p>
-    <blockquote>“Meditation is a vital way to purify and quiet the mind.” – Dalai Lama</blockquote>
+    <p>As mindful reflection, gratitude, and intentional stillness, to help you align with your true self and experience a deeper sense of harmony in your life.</p>
   </div>
   <div className="practice-item">
     <img src="/mera.jpg" alt="Mindful Activities" className="practice-image" />
-    <h3>Mindful Activities</h3>
+    <h3>Emotional healing and energy clearing </h3>
     <hr className="divider"/>
-    <p>Suggestions for mindful activities to improve daily focus.</p>
-    <blockquote>“Awareness is the greatest agent for change.” – Eckhart Tolle</blockquote>
+    <p>Emotional healing and energy clearing are essential for overcoming mental barriers like fear, resistance, and limiting beliefs, allowing you to release negative emotions and create space for peace and transformation. </p>
+    
   </div>
   </div>
       </div>

@@ -48,6 +48,7 @@
     max-width: 600px;
     color: white;
     margin-left: 50px;
+    
   }
 
   
@@ -56,12 +57,17 @@
     font-weight: bold;
     margin-bottom: 15px;
     color:white;
+    margin-top: 20px;
   }
   
   .hero-text p {
     font-size: 1.1rem;
     color: white;
     line-height: 1.6;
+    margin-top: 20px;
+  }
+  .hero-highlight{
+    color: #f0801d; 
   }
   
   .hero-image {
@@ -108,7 +114,7 @@
   }
   
   .grid-item {
-    background: white;
+    background: transparent;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -124,12 +130,13 @@
   .grid-item h3 {
     font-size: 1.5rem;
     font-weight: bold;
+    color: white;
     margin-top: 15px;
   }
   
   .grid-item p {
-    font-size: 1rem;
-    color: #555;
+    font-size: 0.8rem;
+    color: rgb(210, 208, 208);
     margin-top: 10px;
   }
   
@@ -174,7 +181,7 @@
   .step-marker {
     width: 40px; /* Same size as before */
     height: 40px; /* Same size as before */
-    background: #007bff;
+    background: #f0801d;
     color: white;
     font-size: 1.4rem;
     font-weight: bold;
@@ -240,9 +247,9 @@
     padding: 12px 24px;
     font-size: 1rem;
     font-weight: bold;
-    background: #007bff;
+    background: transparent;
     color: white;
-    border: none;
+    border: 2px solid #f0801d;
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease;

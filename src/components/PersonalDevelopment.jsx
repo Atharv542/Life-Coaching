@@ -20,6 +20,25 @@ const steps = [
   { title: "Take Consistent Action", description: "Small consistent efforts lead to big changes over time." },
   { title: "Review and Improve", description: "Track your progress and make necessary improvements." },
 ];
+const strategies = [
+  {
+    title: "Goal Setting",
+    description:
+      "Setting SMART goals that align with your values and vision, empowering you to take consistent steps toward your success and personal growth.",
+  },
+  {
+    title: "Mindset Shifts & Building Habits",
+    description:
+      "Guiding you through powerful mindset shifts and supporting you in building sustainable habits that transform your beliefs and behaviors, empowering you to create lasting positive change in your life.",
+  },
+  {
+    title: "Self-Reflection & Learning",
+    description:
+      "Encouraging you to embrace self-reflection and continuous learning, helping you gain deeper insights into your thoughts and actions, so you can grow, adapt, and move forward with clarity and purpose.",
+  },
+];
+
+
 
 const PersonalDevelopment = () => {
   const [index, setIndex] = useState(0);
@@ -38,16 +57,14 @@ const PersonalDevelopment = () => {
   <div className="hero-text">
     <h1>Personal Development</h1>
     <p>
-      Personal development coaching is about unlocking your full potential
-      and becoming the best version of yourself. Together, we will
-      identify your core strengths and areas for growth, set meaningful
-      goals, and create a plan to achieve them.
+    Personal development coaching is about unlocking your full potential and becoming the best version of yourself. Together, we will identify your core strengths and areas for growth, set meaningful goals, and create a plan to achieve them. Through self-reflection, mindset shifts, and intentional habit-building, you will gain the tools to continuously evolve, overcome limiting beliefs, and break through the mental barriers holding you back. It’s about more than just success—it’s about creating lasting fulfilment and personal growth.
     </p>
     
     <ul className="hero-benefits">
-      <li>🚀 Unlock your potential</li>
-      <li>📈 Improve productivity</li>
-      <li>💡 Develop self-confidence</li>
+      <li><span className="hero-highlight">Social Growth</span> – How you communicate & focus on effective listening. </li>
+      <li><span className="hero-highlight">Spiritual Growth</span> – How to connect yourself on a holistic level & finding inner peace.</li>
+      <li><span className="hero-highlight">Emotional Growth</span> – How to develop & manage your feelings. </li>
+      <li><span className="hero-highlight" >Physical Growth</span> – How to take control of your body. </li>
     </ul>
 
     <motion.p
@@ -98,21 +115,21 @@ const PersonalDevelopment = () => {
 
       {/* Grid Section */}
       <div className="grid">
-        {["Goal Setting", "Habit Formation", "Affirmations"].map((strategy, i) => (
-          <motion.div
-            key={i}
-            className="grid-item"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: i * 0.2 }}
-            viewport={{ once: true }}
-          >
-            <img src={strategiesImages[i]} alt={strategy} className="strategy-icon" />
-            <h3>{strategy}</h3>
-            <p>Learn how to implement {strategy.toLowerCase()} in your daily routine to achieve personal growth.</p>
-          </motion.div>
-        ))}
-      </div>
+      {strategies.map((strategy, i) => (
+        <motion.div
+          key={i}
+          className="grid-item"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: i * 0.2 }}
+          viewport={{ once: true }}
+        >
+          <img src='' alt={strategy.title} className="strategy-icon" />
+          <h3>{strategy.title}</h3>
+          <p>{strategy.description}</p>
+        </motion.div>
+      ))}
+    </div>
 
       {/* Timeline Animation - How to Start */}
       <div className="timeline-container">

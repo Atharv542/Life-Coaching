@@ -3,29 +3,29 @@ import "./CareerCoaching.css";
 
 const strategies = [
   {
-    title: "Career Planning",
-    description: "Map out your professional journey with clear goals and strategies.",
+    title: "Developing a Strong Personal Brand",
+    description: "Identify and articulate your unique strengths and values, guiding you in creating a powerful personal brand that authentically represents who you are and resonates with your audience.",
     image: "CareerPlanning.jpeg",
   },
   {
-    title: "Skill Development",
-    description: "Identify and enhance the skills that will help you excel in your field.",
+    title: "Mastering Communication Skills ",
+    description: "Master communication skills by enhancing your ability to listen actively, speak with clarity, and connect authentically, empowering you to build stronger relationships and influence others effectively.",
     image: "Skill.jpeg",
   },
   {
-    title: "Networking",
-    description: "Build meaningful professional connections that open doors to new opportunities.",
+    title: "Building Emotional Intelligence ",
+    description: "Develop emotional intelligence by improving your self-awareness, empathy, and emotional regulation, enabling you to navigate challenges with greater resilience and build stronger, more meaningful relationships.",
     image: "Netwroking.jpeg",
   },
 ];
 
 const CareerRoadmap = [
   "Self-Assessment & Career Goals",
-  "Skill Development & Certifications",
-  "Resume Building & Personal Branding",
-  "Networking & Mentorship",
-  "Job Applications & Interviews",
-  "Landing the Dream Job & Growth",
+  "Awareness",
+  "Overcoming Obstacles & Limiting Belief",
+  "Goal Setting ",
+  "Skill development & Growth ",
+  "Mindset Shift",
 ];
 
 const CareerCoaching = () => {
@@ -34,14 +34,16 @@ const CareerCoaching = () => {
       {/* Hero Section */}
       <div className="hero">
         <div className="hero-text">
-          <h1>Career Coaching</h1>
+          <h1>Career & Executive Presence Coaching</h1>
           <p>
-            Career coaching helps you navigate your professional journey, whether you're looking for a promotion, a career change, or leadership growth. Let’s align your work with your passions and strengths.
+          Career coaching focuses on helping you navigate your professional path, whether you're looking to advance in your current role or pivot to something new. We’ll work on crafting your career vision, developing your skills, and finding alignment between your work and personal values.
           </p>
+          
+          <p>Executive presence, meanwhile, is about cultivating the leadership qualities that inspire confidence in others—whether you're in a leadership position or working towards one. We’ll focus on enhancing your communication skills, emotional intelligence, decision-making, and overall ability to lead with confidence, authenticity, and impact. Together, we’ll ensure that you present yourself with clarity, authority, and poise in any professional setting.</p>
           <ul className="hero-benefits">
-            <li>🚀 Career Planning</li>
-            <li>🎯 Skill Development</li>
-            <li>💡 Networking</li>
+            <li>-	Clarity & Vision</li>
+            <li>-	Leadership & Professional Development </li>
+            <li>-	Actionable Strategies & Goal Achievements. </li>
           </ul>
           <button className="hero-btn">Get Started</button>
           <motion.div
@@ -50,8 +52,7 @@ const CareerCoaching = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
           >
-            <p className="quote">“Your career is your business. It’s time to manage it like a CEO.”</p>
-            <span>- Dorit Sher</span>
+          
           </motion.div>
         </div>
         <motion.div 
@@ -72,7 +73,7 @@ const CareerCoaching = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2>Strategies for Career Growth</h2>
+        <h1>Strategies for Career Growth</h1>
       </motion.div>
 
       {/* Strategies Flip Cards */}
@@ -101,7 +102,7 @@ const CareerCoaching = () => {
 
       {/* Career Roadmap Flowchart */}
       <div className="career-roadmap">
-        <h2>Career Roadmap</h2>
+        <h1>Career Roadmap</h1>
         <motion.div
           className="roadmap-container"
           initial={{ x: "-100%" }}

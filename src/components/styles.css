@@ -40,11 +40,17 @@ body {
 
 
 .hero-title {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   color: white; 
   margin-bottom: 20px;
+}
+.hero-quote {
+  font-style: italic;
+  color: black;
+  margin-top: 10px;
+  font-size: larger;
 }
 
 .highlight-text {
@@ -61,7 +67,7 @@ body {
 }
 
 .hero-button {
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 14px 35px;
   background-color: rgb(10, 56, 57);
   border: 2px solid #A0AEC0; /* Soft Gray */
@@ -224,7 +230,7 @@ body {
   }
   
   .about-description {
-    max-width: 600px;
+    max-width: 800px;
     color: white;
     font-size: 1.2rem;
     line-height: 1.8;
@@ -251,35 +257,80 @@ body {
   }
   
 
-.mission-vision-section {
+  .mission-vision-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .mission-vision-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
   
-  padding: 30px;
-  border-radius: 12px;
-  max-width: 800px;
-  background-color: transparent;
+  .mission-box, .vision-box {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
 }
 
-.mission-vision-title {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  font-size: xx-large;
-  color:white;
-  font-weight: bolder;
-  font-family:"Poppins", sans-serif;
-  margin-left: 200px;
-  text-align: left;
+/* Shiny Border Effect */
+.mission-box::before, .vision-box::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
 }
 
-.mission-vision-text {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  text-align: justify;
-  color: white;
-  margin-bottom: 15px;
-  font-family: "Poppins", sans-serif;
-  margin-left: 200px;
+/* Hover Effect - Apply glow only to the border */
+.mission-box:hover::before, .vision-box:hover::before {
+    opacity: 1;
+    animation: shiny-border 1.5s infinite linear;
 }
 
+@keyframes shiny-border {
+    0% { border-color: rgba(255, 255, 255, 0.5); }
+    50% { border-color: rgba(255, 255, 255, 1); }
+    100% { border-color: rgba(255, 255, 255, 0.5); }
+}
+
+/* Lift effect on hover */
+.mission-box:hover, .vision-box:hover {
+    transform: translateY(-10px);
+}
+
+  
+  h4 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+  }
+  
 
 
 .section-title {
@@ -360,6 +411,9 @@ body {
     background: white;
     background: linear-gradient(45deg, #105153 25%, #000000);
     color: white;
+  }
+  .footer-para{
+    text-align: center;
   }
   .footer-links a {
     

@@ -1,5 +1,5 @@
 import './styles.css';
-
+import { motion } from "framer-motion";
 const Home = () => {
   return (
     <section className="hero">
@@ -10,14 +10,21 @@ const Home = () => {
         <h1 className="hero-greeting">Hey There! I am <span className="highlight-text">Sachin Kaintura</span></h1>
 
         <h2 className="hero-title">
-          Transform Your <span className="highlight-text">Mindset & Life</span>
+        Awaken Your <span className="highlight-text">True Potential</span>  & Embrace <span className="highlight-text">Mindful Growth</span>
         </h2>
         <p className="hero-description">
-          Unlock your full potential with expert guidance. Achieve your goals, find clarity, and build the confidence to create a fulfilling life. Your journey to success starts now!
+        Discover the power within you to transform your life. Through the powerful combination of personal development and mindfulness, you can cultivate a deeper awareness, unlock your true potential, and create a life filled with purpose and growth
         </p>
-        <a href="/booking" target="_blank">
+        <motion.p
+      className="hero-quote"
+      initial={{ opacity: 1 }}
+      animate={{ opacity: 10 }}
+      transition={{ duration: 4, repeat: Infinity, repeatType: "reverse" }}>
+      "Start your journey toward a balanced, purposeful, and empowered life today!."
+    </motion.p>
+      <a href="/booking" target="_blank">
           <button className="hero-button">
-            Book Your Free Strategy Call
+            Book Your Free Discovery Call
           </button>
         </a>
       </div>
