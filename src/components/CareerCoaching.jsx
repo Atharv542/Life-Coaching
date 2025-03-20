@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import "./CareerCoaching.css";
-
+import { FaHome } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 const strategies = [
   {
     title: "Developing a Strong Personal Brand",
@@ -29,8 +30,13 @@ const CareerRoadmap = [
 ];
 
 const CareerCoaching = () => {
+  const navigate= useNavigate();
   return (
     <div className="container">
+    <div className="heading-box">
+    <FaHome className="home-icon" onClick={()=>{navigate('/')}} />
+        <h1 className="main-heading">Life Coaching</h1>
+      </div>
       {/* Hero Section */}
       <div className="hero">
         <div className="hero-text">

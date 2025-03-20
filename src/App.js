@@ -33,22 +33,26 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Navbar scrollToSection={scrollToSection} />
-      <div style={{ paddingTop: '60px' }}> {/* Ensures content doesn't go under navbar */}
+      
+      <div> {/* Ensures content doesn't go under navbar */}
         <Routes>
           <Route
             path="/"
             element={
               <>
-                <div ref={homeRef}>
+                <div  style={{ paddingTop: '60px' }} ref={homeRef}>
+                <Navbar scrollToSection={scrollToSection} />
                   <Home />
                 </div>
-                <div ref={contactRef}>
-                  <Services />
+                <div  style={{ paddingTop: '60px' }} ref={contactRef}>
+                <Navbar scrollToSection={scrollToSection} />
+                <Services />
                 </div>
-                <div ref={aboutRef}>
+                <div  style={{}} ref={aboutRef}>
+                <Navbar scrollToSection={scrollToSection} />
                   <AboutMe />
                 </div>
+
                 <Testimonials />
                 <Footer />
               </>

@@ -14,7 +14,7 @@ const Services = () => {
       <div className="services-grid">
         <div className="service-card">
          <div className='service-img'>
-         <img src="/Personal.jpeg" alt="Personal Development" />
+         <img src="/Personal5.jpg" alt="Personal Development" />
          </div>
          <div className='service-div'>
          <h3 className="service-title">Personal Development</h3>
@@ -27,7 +27,7 @@ const Services = () => {
 
         <div className="service-card">
          <div className='service-img'>
-         <img src="/Personal.jpeg" alt="Personal Development" />
+         <img src="/CareerCoaching2.jpg" alt="Personal Development" />
          </div>
          <div className='service-div'>
          <h3 className="service-title">Career & Executive Presence </h3>
@@ -40,7 +40,7 @@ const Services = () => {
 
         <div className="service-card">
          <div className='service-img'>
-         <img src="/Personal.jpeg" alt="Personal Development" />
+         <img src="/Mindfull3.jpg" alt="Personal Development" />
          </div>
           <div className='service-div'>
           <h3 className="service-title">Mindfulness and Spiritual</h3>

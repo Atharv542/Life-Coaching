@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./PersonalDevelopment.css";
-
+import { FaHome } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 const images = [
   "https://www.oneeducation.org.uk/wp-content/uploads/2021/04/Personal-Development-768x505.png",
   "https://www.blendcentre.co.uk/wp-content/uploads/2016/07/Personal-Growth-is-Childs-Play.jpg",
@@ -42,7 +43,7 @@ const strategies = [
 
 const PersonalDevelopment = () => {
   const [index, setIndex] = useState(0);
-
+  const navigate= useNavigate();
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -53,6 +54,10 @@ const PersonalDevelopment = () => {
 
   return (
     <div className="container">
+       <div className="heading-box">
+       <FaHome className="home-icon" onClick={()=>{navigate('/')}} />
+        <h1 className="main-heading">Life Coaching</h1>
+      </div>
       <div className="hero">
   <div className="hero-text">
     <h1>Personal Development</h1>

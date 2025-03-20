@@ -1,10 +1,16 @@
 import { React, useState } from "react";
 import "./Mindfulness.css";
-
+import { FaHome } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 const MindfulnessCoaching = () => {
     const [isHovered, setIsHovered] = useState(false);
+    const navigate= useNavigate();
   return (
     <div className="mindfulness-container">
+       <div className="heading-box">
+       <FaHome className="home-icon" onClick={()=>{navigate('/')}} />
+        <h1 className="main-heading">Life Coaching</h1>
+      </div>
       {/* Hero Section */}
       <div className="hero">
         <div className="hero-text">
@@ -14,7 +20,7 @@ const MindfulnessCoaching = () => {
         </p>
         <button className="hero-btn">Get Started</button>
         </div>
-        <img src="/mind.jpg" alt="Mindfulness" className="hero-image" />
+        <img src="/mindfull.jpg" alt="Mindfulness" className="hero-image" />
       </div>
 
       {/* Mindfulness Practices Section */}
@@ -29,7 +35,7 @@ const MindfulnessCoaching = () => {
   </div>
   <div className="practice-item">
     <img src="/meditation.jpg" alt="Meditation" className="practice-image" />
-    <h3>Cultivating Spiritual Connection and Inner Peace </h3>
+    <h3>Spiritual Connection & Inner Peace </h3>
     <hr className="divider"/>
     <p>As mindful reflection, gratitude, and intentional stillness, to help you align with your true self and experience a deeper sense of harmony in your life.</p>
   </div>

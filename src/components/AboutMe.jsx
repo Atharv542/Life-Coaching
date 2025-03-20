@@ -17,7 +17,7 @@ const AboutMe = () => {
     <section className={`about ${fadeIn ? "fade-in" : ""}`}>
       <h2 className="about-title">About Me</h2>
       <div className="aboutMeBox">
-        <img src="/About Me.jpeg" alt="About Me" className="about-image" />
+        <img src="/aboutMe.jpg" alt="About Me" className="about-image" />
         <div className="about-description">
           <p>
           Hello, I'm Sachin Kaintura—though you might associate my first name with the famous Indian cricketer, I assure you, it wasn’t chosen for that reason! I’m blessed with a beautiful wife, a wonderful daughter, and a charming son, who are my greatest joys and motivation.
@@ -52,7 +52,7 @@ It took me over 20 years to discover my true purpose. When I look back, I realiz
       </p>
     </div>
     <div className="vision-box">
-      <h4>My Vision</h4>
+      <h4 className="vision-heading">My Vision</h4>
       <p>
         My vision is to empower individuals to unlock their full potential through self-learning, mindfulness, and personal development, enabling them to achieve lasting personal and family growth. 
         I strive to create a world where people are guided by honesty, respect, empathy, and authenticity in their journey toward becoming stronger, more mindful versions of themselves.

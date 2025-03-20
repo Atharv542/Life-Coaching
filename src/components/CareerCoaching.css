@@ -2,7 +2,7 @@
     max-width: 100%;
     margin: auto;
     padding: 20px;
-    background: linear-gradient(45deg, #000000 50%, #105153);
+    background-color: rgb(10, 56, 57);
 }
 
 /* Hero Section */
@@ -158,6 +158,30 @@
     font-size:2.8rem;
     color: white;
 }
+
+.heading-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the main heading */
+  .main-heading {
+    font-size: 2.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Home icon styling */
+  .home-icon {
+    font-size: 2.2rem;
+    color: white;
+  }
 
   
   

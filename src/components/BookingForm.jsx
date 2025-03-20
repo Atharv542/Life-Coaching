@@ -1,11 +1,13 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import toast, { Toaster } from 'react-hot-toast';
+import { FaHome } from "react-icons/fa";
 import "./styles.css";
+import { useNavigate } from "react-router-dom";
 
 const BookingForm = () => {
   const formRef = useRef();
-
+  const navigate= useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -33,42 +35,32 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="booking-container">
-      <div className="main-box">
-        <div className="contact-box">
-          <h2 className="contact-title">Contact Us ☎️</h2>
-        </div>
-        <div className="booking-content">
-          <img src="/contact.jpg" alt="Life Coaching" className="booking-image" />
-          <form ref={formRef} onSubmit={handleSubmit} className="booking-form">
-            <label className="entity">Name:</label>
-            <input placeholder="Enter Your Name" type="text" name="name" required />
-
-            <label className="entity">Email:</label>
-            <input placeholder="Enter Your Email" type="email" name="email" required />
-
-            <label className="entity">Phone:</label>
-            <input placeholder="Enter Your Contact No." type="tel" name="phone" required />
-
-            <label className="entity">Preferred Date:</label>
-            <input type="date" name="date" required />
-
-            <label className="entity">Preferred Time:</label>
-            <select name="time" required>
-              <option value="" disabled selected>Select Time</option>
-              <option value="10 a.m.">10 a.m.</option>
-              <option value="11 a.m.">11 a.m.</option>
-              <option value="3 p.m.">3 p.m.</option>
-            </select>
-
-            <label className="entity">Message:</label>
-            <textarea placeholder="Message" name="message" />
-
-            <button type="submit">Book Appointment</button>
-          </form>
-        </div>
-      </div>
+<div className="booking-container">
+<div className="heading-box">
+    <FaHome className="home-icon" onClick={()=>{navigate('/')}} />
+    <h1 className="main-heading">Life Coaching</h1>
+  </div>
+ <div className="main-box">
+    <div className="contact-box">
+      <h2 className="contact-title">Contact Us</h2>
     </div>
+    <form ref={formRef} onSubmit={handleSubmit} className="booking-form">
+      <label className="entity">Name:</label>
+      <input placeholder="Enter Your Name" type="text" name="name" required />
+
+      <label className="entity">Email:</label>
+      <input placeholder="Enter Your Email" type="email" name="email" required />
+
+      <label className="entity">Phone:</label>
+      <input placeholder="Enter Your Contact No." type="tel" name="phone" required />
+
+      <label className="entity">Message:</label>
+      <textarea placeholder="Message" name="message" />
+
+      <button type="submit">Book Appointment</button>
+    </form>
+  </div>
+</div>
   );
 };
 

@@ -29,6 +29,28 @@
     border: 2px solid white;
 
 }
+.heading-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* Styling for the main heading */
+.main-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Home icon styling */
+.home-icon {
+  font-size: 2.2rem;
+  color: white;
+}
   
   .hero-description {
     font-size: 1.2rem;

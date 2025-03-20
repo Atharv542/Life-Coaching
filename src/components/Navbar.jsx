@@ -5,11 +5,12 @@ const Navbar = ({ scrollToSection }) => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <div  className="logo">Life Coaching </div>
+        <img src='/Logo2.svg' className='Logo'/>
+        <div  className="logo">Empowering Growth From Within </div>
       </div>
       <ul className="navbar-menu">
         <li>
-          <Link to="/"   className="nav-link">
+          <Link to="/" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}  className="nav-link">
             Home
           </Link>
         </li>
