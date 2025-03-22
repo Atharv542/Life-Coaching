@@ -18,7 +18,7 @@ const MindfulnessCoaching = () => {
         <p className="hero-description">
           Mindfulness is the practice of staying fully present in the moment, helping you manage stress, improve focus, and enhance your decision-making ability. In our sessions, you will learn tools and techniques to cultivate mindfulness, creating a greater sense of calm and clarity in both your professional and personal life. This awareness allows you to approach challenges with resilience, maintain composure under pressure, and make thoughtful, intentional decisions.
         </p>
-        <button className="hero-btn">Get Started</button>
+        <button className="hero-btn" onClick={()=>{navigate('/booking')}}>Get Started</button>
         </div>
         <img src="/mindfull.jpg" alt="Mindfulness" className="hero-image" />
       </div>

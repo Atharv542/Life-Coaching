@@ -16,8 +16,7 @@ const Testimonials = () => {
       <div className="video-border">
         <video 
           className="testimonial-video" 
-          controls 
-          autoPlay={isHovered} 
+          controls  
           muted
         >
           <source src="/Review.mp4" type="video/mp4" />
@@ -29,7 +28,6 @@ const Testimonials = () => {
         <video 
           className="testimonial-video" 
           controls 
-          autoPlay={isHovered} 
           muted
         >
           <source src="/testimonial2.mp4" type="video/mp4" />
@@ -41,7 +39,6 @@ const Testimonials = () => {
         <video 
           className="testimonial-video" 
           controls 
-          autoPlay={isHovered} 
           muted
         >
           <source src="/Review.mp4" type="video/mp4" />

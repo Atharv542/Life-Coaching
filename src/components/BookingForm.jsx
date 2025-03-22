@@ -14,10 +14,10 @@ const BookingForm = () => {
     if (formRef.current) {
       emailjs
         .sendForm(
-          "service_j4ah4kb",  // Replace with your EmailJS service ID
-          "template_1i8b317", // Replace with your EmailJS template ID
+          "service_j4ah4kb", 
+          "template_1i8b317", 
           formRef.current,
-          "qOUTSphaEMIDp4QnT" // Replace with your EmailJS public key
+          "qOUTSphaEMIDp4QnT" 
         )
         .then(
           () => {

@@ -81,7 +81,7 @@ const PersonalDevelopment = () => {
       "Personal development is the belief that you are worth the effort, time, and energy needed to develop yourself."
     </motion.p>
 
-    <button className="hero-btn">Start Your Journey</button>
+    <button className="hero-btn" onClick={()=>{navigate('/booking')}}>Start Your Journey</button>
   </div>
 
   <div className="hero-image">

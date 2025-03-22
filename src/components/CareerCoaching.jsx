@@ -51,7 +51,7 @@ const CareerCoaching = () => {
             <li>-	Leadership & Professional Development </li>
             <li>-	Actionable Strategies & Goal Achievements. </li>
           </ul>
-          <button className="hero-btn">Get Started</button>
+          <button className="hero-btn" onClick={()=>{navigate('/booking')}}>Get Started</button>
           <motion.div
             className="quote-box"
             initial={{ opacity: 0 }}

@@ -1,6 +1,8 @@
+import {  useNavigate } from 'react-router-dom';
 import './styles.css';
 import { motion } from "framer-motion";
 const Home = () => {
+  const navigate=useNavigate();
   return (
     <section className="hero">
       <img src="/Background.jpeg" alt="Life Coaching" className="hero-image" />
@@ -22,11 +24,10 @@ const Home = () => {
       transition={{ duration: 4, repeat: Infinity, repeatType: "reverse" }}>
       "Start your journey toward a balanced, purposeful, and empowered life today!."
     </motion.p>
-      <a href="/booking" target="_blank">
-          <button className="hero-button">
-            Book Your Free Discovery Call
-          </button>
-        </a>
+    <button className="hero-button" onClick={()=>{navigate('/booking')}}>
+      Book Your Free Discovery Call
+    </button>
+        
       </div>
     </section>
   );
