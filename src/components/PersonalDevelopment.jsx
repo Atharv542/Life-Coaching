@@ -56,7 +56,7 @@ const PersonalDevelopment = () => {
     <div className="container">
        <div className="heading-box">
        <FaHome className="home-icon" onClick={()=>{navigate('/')}} />
-        <h1 className="main-heading">Life Coaching</h1>
+        <h1 className="main-heading">Self-Discovery & Mindfulness</h1>
       </div>
       <div className="hero">
   <div className="hero-text">
@@ -66,10 +66,10 @@ const PersonalDevelopment = () => {
     </p>
     
     <ul className="hero-benefits">
-      <li><span className="hero-highlight">Social Growth</span> – How you communicate & focus on effective listening. </li>
-      <li><span className="hero-highlight">Spiritual Growth</span> – How to connect yourself on a holistic level & finding inner peace.</li>
-      <li><span className="hero-highlight">Emotional Growth</span> – How to develop & manage your feelings. </li>
-      <li><span className="hero-highlight" >Physical Growth</span> – How to take control of your body. </li>
+      <li><span className="hero-highlight">-Social Growth</span> </li>
+      <li><span className="hero-highlight">-Spiritual Growth</span></li>
+      <li><span className="hero-highlight">-Emotional Growth</span></li>
+      <li><span className="hero-highlight" >-Physical Growth</span></li>
     </ul>
 
     <motion.p

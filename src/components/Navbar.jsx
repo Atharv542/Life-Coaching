@@ -6,7 +6,7 @@ const Navbar = ({ scrollToSection }) => {
     <nav className="navbar">
       <div className="navbar-brand">
         <img src='/Logo2.svg' className='Logo'/>
-        <div  className="logo">Empowering Growth From Within </div>
+        <div  className="logo">Self-Discovery & Mindfulness</div>
       </div>
       <ul className="navbar-menu">
         <li>

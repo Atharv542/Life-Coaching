@@ -35,7 +35,7 @@ const CareerCoaching = () => {
     <div className="container">
     <div className="heading-box">
     <FaHome className="home-icon" onClick={()=>{navigate('/')}} />
-        <h1 className="main-heading">Life Coaching</h1>
+        <h1 className="main-heading">Self-Discovery & Mindfulness</h1>
       </div>
       {/* Hero Section */}
       <div className="hero">
