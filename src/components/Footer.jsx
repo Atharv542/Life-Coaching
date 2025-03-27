@@ -1,0 +1,46 @@
+import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-900 text-white py-6">
+      <div className="flex flex-col items-center">
+        {/* Social Icons */}
+        <div className="flex space-x-6 mb-3">
+          <a
+            href="https://www.instagram.com/sachin.kaintura?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noreferrer"
+            className="text-2xl transition-transform transform hover:scale-110"
+          >
+            <FaInstagram className="text-pink-500" />
+          </a>
+
+          <a
+            href="https://www.facebook.com/share/15iXo19Mni/?mibextid=wwXIfr"
+            target="_blank"
+            rel="noreferrer"
+            className="text-2xl transition-transform transform hover:scale-110"
+          >
+            <FaFacebook className="text-blue-500" />
+          </a>
+
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-2xl transition-transform transform hover:scale-110"
+          >
+            <FaLinkedin className="text-blue-400" />
+          </a>
+        </div>
+
+        {/* Footer Text */}
+        <p className="text-sm text-gray-400">
+          &copy; {new Date().getFullYear()} Life Coaching. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
