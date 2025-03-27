@@ -4,13 +4,14 @@ const AboutMe = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const paragraphRef = useRef(null);
 
-  useEffect(() => {
-    setTimeout(() => {
-      if (paragraphRef.current) {
-        paragraphRef.current.scrollIntoView({ behavior: "smooth" });
-
-      }
-    }, 100);
+    useEffect(() => {
+    if (isExpanded) {
+      setTimeout(() => {
+        if (paragraphRef.current) {
+          paragraphRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
   }, [isExpanded]);
   
   const toggleReadMore = () => {
