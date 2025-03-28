@@ -66,7 +66,7 @@ const CareerCoaching = () => {
           initial={{ opacity: 0, x: 50 }} 
           animate={{ opacity: 1, x: 0 }} 
           transition={{ duration: 0.8 }}
-          className="md:w-1/2"
+          className="md:w-1/2 hidden md:block"
         >
           <img src="Career.jpeg" alt="Career Coaching" className="rounded-lg shadow-lg w-full h-[550px] mt-14 object-cover" />
         </motion.div>

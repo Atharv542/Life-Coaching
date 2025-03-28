@@ -42,7 +42,7 @@ const AboutMe = () => {
         <img
           src='aboutMe.jpg'
           alt="Professional Coach"
-          className="rounded-lg shadow-xl w-full h-[650px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
+          className="rounded-lg shadow-xl w-full lg:h-[650px] md:h-[550px] sm:[400px] h-[450px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
         />
 
         {/* Content Section */}

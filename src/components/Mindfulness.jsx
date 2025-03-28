@@ -33,11 +33,11 @@ const MindfulnessCoaching = () => {
         </div>
 
         {/* Right Image */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 hidden md:block">
           <img
             src="/M-main.jpg"
             alt="Mindfulness"
-            className="rounded-lg shadow-lg w-full h-auto mt-14 object-cover"
+            className="rounded-lg shadow-lg w-full h-auto mt-14 object-cover "
           />
         </div>
       </div>

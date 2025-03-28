@@ -76,7 +76,7 @@ const PersonalDevelopment = () => {
             Start Your Journey
           </button>
         </div>
-        <motion.div className="relative w-full max-h-[400px]">
+        <motion.div className="relative w-full max-h-[400px] hidden md:block">
           <motion.img
             key={index}
             src={images[index]}
