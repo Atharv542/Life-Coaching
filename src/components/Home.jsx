@@ -22,11 +22,7 @@ function Home() {
           <img 
             src={Background} 
             alt="Life Coaching" 
-<<<<<<< HEAD
             className="rounded-lg shadow-2xl w-full max-w-xs sm:max-w-40 md:max-w-md lg:max-w-lg xl:max-w-xl"
-=======
-            className="rounded-lg shadow-2xl w-full  sm:max-w-72 md:max-w-md lg:max-w-lg xl:max-w-xl"
->>>>>>> d75ecc2 (Fixed responsiveness for About Me section)
           />
         </motion.div>
 
