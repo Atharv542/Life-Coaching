@@ -35,7 +35,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+    <div className="flex flex-col items-center mt-10 justify-center min-h-screen bg-gray-100 p-6">
       
 
       <div className="bg-white  rounded-lg p-8 border-2 border-teal-500 mt-14 w-full max-w-lg">

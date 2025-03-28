@@ -12,7 +12,7 @@ const MindfulnessCoaching = () => {
       <div className="mt-10 flex flex-col md:flex-row items-center gap-8">
         {/* Left Text */}
         <div className="md:w-1/2 space-y-4">
-          <h1 className="text-3xl font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
+          <h1 className="text-3xl mt-5 font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
           <p className="text-gray-600">
             Mindfulness is the practice of staying fully present in the moment, helping you manage stress, improve focus,
             and enhance your decision-making ability. In our sessions, you will learn tools and techniques to cultivate

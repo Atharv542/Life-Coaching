@@ -48,7 +48,7 @@ const CareerCoaching = () => {
       {/* Hero Section */}
       <div className="mt-10 flex flex-col md:flex-row items-center gap-8">
         <div className="md:w-1/2 space-y-4">
-          <h1 className="text-4xl font-bold  text-teal-700">Career & Executive Presence Coaching</h1>
+          <h1 className="text-4xl font-bold mt-5 text-teal-700">Career & Executive Presence Coaching</h1>
           <p className="text-gray-600">
             Career coaching focuses on helping you navigate your professional path, whether you're looking to advance in your current role or pivot to something new.
           </p>
