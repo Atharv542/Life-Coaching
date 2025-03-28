@@ -51,8 +51,8 @@ const PersonalDevelopment = () => {
 
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
-        <div className="space-y-6">
-          <h2 className="text-4xl font-bold text-teal-700">Personal Development</h2>
+        <div className="space-y-6 mt-12">
+          <h2 className="text-4xl  font-bold text-teal-700">Personal Development</h2>
           <p className="text-gray-700 leading-relaxed">
             Personal development coaching is about unlocking your full potential and becoming the best version of yourself. Together, we will identify your core strengths, set meaningful goals, and create a plan to achieve them.
           </p>
@@ -71,7 +71,7 @@ const PersonalDevelopment = () => {
           </motion.p>
           <button
             onClick={() => navigate("/booking")}
-            className="bg-teal-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-teal-700 transition"
+            className="bg-teal-600 cursor-pointer text-white px-6 py-2 rounded-md shadow-md hover:bg-teal-700 transition"
           >
             Start Your Journey
           </button>
@@ -109,26 +109,33 @@ const PersonalDevelopment = () => {
       </div>
 
       {/* Timeline Section */}
-      <div className="mt-16">
-        <h2 className="text-3xl font-bold text-teal-700 text-center mb-8">How to Start Your Personal Development Journey?</h2>
-        <div className="relative">
-          {steps.map((step, index) => (
-            <motion.div key={index} className="flex items-center space-x-4 mb-6"
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: index * 0.3 }}
-              viewport={{ once: true }}
-            >
-              <div className="bg-teal-600 text-white w-10 h-10 flex items-center justify-center font-bold rounded-full">{index + 1}</div>
-              <div>
-                <h3 className="text-lg font-semibold text-gray-800">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
-              </div>
-            </motion.div>
-          ))}
+ 
+  <div className="mt-16">
+  <h2 className="text-3xl font-bold text-teal-700 text-center mb-8">
+    How to Start Your Personal Development Journey?
+  </h2>
+  <div className="relative space-y-6">
+    {steps.map((step, index) => (
+      <motion.div 
+        key={index} 
+        className="flex items-center space-x-4 mb-6 p-4 bg-gray-50 shadow-md rounded-lg border border-teal-300" 
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.2, delay: index * 1.2 }} 
+        viewport={{ once: true, amount: 0.5 }} 
+      >
+        <div className="bg-teal-600 text-white w-10 h-10 flex items-center justify-center font-bold rounded-full">
+          {index + 1}
         </div>
-      </div>
-    </div>
+        <div>
+          <h3 className="text-lg font-semibold text-gray-800">{step.title}</h3>
+          <p className="text-gray-600">{step.description}</p>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</div>
+</div>
   );
 };
 

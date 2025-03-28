@@ -26,10 +26,10 @@ function App() {
       homeRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else if (section === 'about' && aboutRef.current) {
       aboutRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else if (section === 'contact' && contactRef.current) {
+    } else if (section === 'services' && contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    else if (section === 'successStories' && storiesRef.current) {
+    else if (section === 'successstories' && storiesRef.current) {
       storiesRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 

@@ -4,7 +4,7 @@ const AboutMe = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const paragraphRef = useRef(null);
 
-    useEffect(() => {
+  /*useEffect(() => {
     if (isExpanded) {
       setTimeout(() => {
         if (paragraphRef.current) {
@@ -12,17 +12,17 @@ const AboutMe = () => {
         }
       }, 100);
     }
-  }, [isExpanded]);
+  }, [isExpanded]);*/
   
   const toggleReadMore = () => {
     setIsExpanded(!isExpanded);
 
     // Scroll to the paragraph after a short delay
-    setTimeout(() => {
+    /*setTimeout(() => {
       if (paragraphRef.current) {
         paragraphRef.current.scrollIntoView({ behavior: "smooth" });
       }
-    }, 100);
+    }, 100);*/
   };
 
   const fullText = `Hello, I'm Sachin Kaintura—though you might associate my first name with the famous Indian cricketer, I assure you, it wasn’t chosen for that reason! I’m blessed with a beautiful wife, a wonderful daughter, and a charming son, who are my greatest joys and motivation. My journey began in Mumbai, where I completed my studies and embarked on a career in hospitality. Like many Indians, my dream was to provide a better life for my family, and in 2009, I took a leap of faith and moved to New Zealand. As an immigrant and a member of the middle class, I’ve learned the values of hard work, empathy, and authenticity, which have shaped my life.
@@ -37,12 +37,12 @@ const AboutMe = () => {
 
   return (
     <div className="mx-auto  ">
-       <div className="grid md:grid-cols-2  px-28 bg-[#F3FDFF] gap-12 items-center py-16 ">
+       <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
         {/* Image Section */}
         <img
           src='aboutMe.jpg'
           alt="Professional Coach"
-          className="rounded-lg shadow-xl w-full h-[700px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
+          className="rounded-lg shadow-xl w-full h-[650px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
         />
 
         {/* Content Section */}
@@ -66,18 +66,19 @@ const AboutMe = () => {
       </div>
 
       {/* Mission and Vision Sections */}
-      <div className="grid md:grid-cols-2 gap-6 mt-8 mb-8 px-28">
-        <div className="bg-gray-50 p-6 rounded-lg border-2 hover:-translate-y-4 cursor-default border-[#105153] hover:bg-white hover:shadow-lg transition-all duration-300 min-h-[200px] flex flex-col justify-center">
-          <h4 className="font-bold text-[#105153] text-2xl mb-2">My Mission</h4>
-          <p className="text-md text-gray-600">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 mb-8 px-6 sm:px-16 lg:px-28">
+        <div className="bg-gray-50 p-6 rounded-lg border-2 md:hover:-translate-y-4 cursor-default border-[#105153] hover:bg-white hover:shadow-lg transition-all duration-300 min-h-[200px] flex flex-col justify-center">
+          <h4 className="font-bold text-[#105153] text-xl sm:text-2xl mb-2">My Mission</h4>
+          <p className="text-sm sm:text-base text-gray-600">
             I inspire and guide individuals to discover their unique path of self-learning through mindfulness and personal development, empowering them to achieve their personal and family goals.
             <br />
             <strong>“Mindfulness in Personal Development – Cultivating a Stronger You."</strong>
           </p>
         </div>
-        <div className="bg-gray-50 p-6 rounded-lg border-2 hover:-translate-y-4 cursor-default border-[#105153] hover:bg-white hover:shadow-lg transition-all duration-300 min-h-[200px] flex flex-col justify-center">
-          <h4 className="font-bold text-[#105153] text-2xl mb-2">My Vision</h4>
-          <p className="text-md text-gray-600">
+        
+        <div className="bg-gray-50 p-6 rounded-lg border-2 md:hover:-translate-y-4 cursor-default border-[#105153] hover:bg-white hover:shadow-lg transition-all duration-300 min-h-[200px] flex flex-col justify-center">
+          <h4 className="font-bold text-[#105153] text-xl sm:text-2xl mb-2">My Vision</h4>
+          <p className="text-sm sm:text-base text-gray-600">
             My vision is to empower individuals to unlock their full potential through self-learning, mindfulness, and personal development, enabling them to achieve lasting personal and family growth. I strive to create a world where people are guided by honesty, respect, empathy, and authenticity in their journey toward becoming stronger, more mindful versions of themselves.
           </p>
         </div>

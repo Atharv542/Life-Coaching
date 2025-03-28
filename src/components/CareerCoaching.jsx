@@ -55,12 +55,12 @@ const CareerCoaching = () => {
           <p className="text-gray-600">
             Executive presence is about cultivating the leadership qualities that inspire confidence in others.
           </p>
-          <ul className="text-gray-700">
-            <li className="font-semibold">✅ Clarity & Vision</li>
-            <li className="font-semibold">✅ Leadership & Professional Development</li>
-            <li className="font-semibold">✅ Actionable Strategies & Goal Achievements</li>
+          <ul className="text-teal-700 list-disc mx-5">
+            <li className="font-bold">Clarity & Vision</li>
+            <li className="font-bold">Leadership & Professional Development</li>
+            <li className="font-bold">Actionable Strategies & Goal Achievements</li>
           </ul>
-          <button className="cursor-pointer bg-teal-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-teal-700 transition" onClick={() => navigate('/booking')}>Get Started</button>
+          <button className="cursor-pointer bg-teal-600 text-white px-6 py-2 mt-3 rounded-md shadow-md hover:bg-teal-700 transition" onClick={() => navigate('/booking')}>Get Started</button>
         </div>
         <motion.div 
           initial={{ opacity: 0, x: 50 }} 

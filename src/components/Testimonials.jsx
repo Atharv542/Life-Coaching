@@ -32,7 +32,7 @@ const Testimonials = () => {
           navigation={true}
           pagination={{ clickable: true }}
           loop={true}
-          autoplay={{ delay: 4000 }}
+          autoplay={{ delay: 2000 }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
           className="w-full relative"
         >

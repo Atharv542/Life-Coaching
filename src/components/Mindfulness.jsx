@@ -16,10 +16,16 @@ const MindfulnessCoaching = () => {
           <p className="text-gray-600">
             Mindfulness is the practice of staying fully present in the moment, helping you manage stress, improve focus,
             and enhance your decision-making ability. In our sessions, you will learn tools and techniques to cultivate
-            mindfulness, creating a greater sense of calm and clarity in both your professional and personal life.
+            mindfulness, creating a greater sense of calm and clarity in both your professional and personal life.But beyond just stress management, mindfulness can open the door to deeper self-awareness and spiritual growth.
           </p>
+          <ul className="text-teal-700 list-disc mx-5">
+            <li className="font-bold">Conscious Mind <span className="text-gray-700 font-semibold">– How our conscious mind behaves.</span> </li>
+            <li className="font-bold">Subconscious Mind <span className="text-gray-700 font-semibold">– How our subconscious mind works.</span></li>
+            <li className="font-bold">Body <span className="text-gray-700 font-semibold">- How does our body reacts & takes action.</span></li>
+            <li className="font-bold">Soul <span className="text-gray-700 font-semibold">– How our soul creates physical aspects of ourselves.</span></li>
+          </ul>
           <button
-            className="bg-teal-500 text-white cursor-pointer px-6 py-2 rounded-lg hover:bg-teal-600 transition"
+            className="bg-teal-600 text-white cursor-pointer px-6 py-2 mt-3 rounded-lg hover:bg-teal-700 transition"
             onClick={() => navigate("/booking")}
           >
             Get Started
