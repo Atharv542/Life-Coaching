@@ -26,7 +26,7 @@ const Services = () => {
             </p>
             <button
               className="text-[#105153] underline cursor-pointer text-sm sm:text-base"
-              onClick={() => navigate("/personalDevelopment")}
+              onClick={() => navigate("/personal-development")}
             >
               Know More
             </button>
@@ -49,7 +49,7 @@ const Services = () => {
             </p>
             <button
               className="text-[#105153] underline cursor-pointer text-sm sm:text-base"
-              onClick={() => navigate("/careerCoaching")}
+              onClick={() => navigate("/career-coaching")}
             >
               Know More
             </button>
@@ -72,7 +72,7 @@ const Services = () => {
             </p>
             <button
               className="text-[#105153] underline cursor-pointer text-sm sm:text-base"
-              onClick={() => navigate("/mindfullCoaching")}
+              onClick={() => navigate("/mindfull-coaching")}
             >
               Know More
             </button>

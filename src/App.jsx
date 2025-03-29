@@ -73,19 +73,19 @@ function App() {
               <Footer/>
             </div>
             } />
-          <Route path="/personalDevelopment" element={
+          <Route path="/personal-development" element={
             <div>
               <PersonalDevelopment />
               <Footer/>
             </div>
             } />
-          <Route path="/careerCoaching" element={
+          <Route path="/career-coaching" element={
             <div>
                 <CareerCoaching />
                 <Footer/>
             </div>
             } />
-          <Route path="/mindfullCoaching" element={
+          <Route path="/mindfull-coaching" element={
             <div>
               <MindfulnessCoaching/>
               <Footer/>
