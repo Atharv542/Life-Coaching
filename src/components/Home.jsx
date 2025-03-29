@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -7,6 +7,24 @@ import Background from "/Background.jpeg";
 
 function Home() {
   const navigate = useNavigate();
+  const [buttonText, setButtonText] = useState("Book Your Free Discovery Call");
+
+  useEffect(() => {
+    const updateButtonText = () => {
+      if (window.innerWidth <= 768) {
+        setButtonText("Connect Now");
+      } else {
+        setButtonText("Book Your Free Discovery Call");
+      }
+    };
+
+    updateButtonText(); // Initial check
+    window.addEventListener("resize", updateButtonText); // Listen for window resize
+
+    return () => {
+      window.removeEventListener("resize", updateButtonText); // Cleanup on unmount
+    };
+  }, []);
 
   return (
     <section className="bg-[#105153] opacity-95 text-white min-h-screen flex items-center">
@@ -62,8 +80,8 @@ function Home() {
 
           {/* ✅ Button */}
           <Link to="/booking">
-            <button className="bg-white text-[#105153] lg:px-6 px-1.5 py-2 rounded-md sm:px-8 md:px-10 lg:py-3 cursor-pointer sm:py-3 lg:rounded-full lg:font-semibold flex items-center justify-center gap-2 hover:bg-teal-50 transition-all duration-300 hover:shadow-lg hover:scale-105 mx-auto md:mx-0">
-              Book Your Free Discovery Call
+            <button className="bg-white text-[#105153] lg:px-6 px-2 py-2 rounded-sm sm:px-8 md:px-10 lg:py-3 cursor-pointer sm:py-3 lg:rounded-full lg:font-semibold flex items-center justify-center gap-2 hover:bg-teal-50 transition-all duration-300 hover:shadow-lg hover:scale-105 mx-auto md:mx-0">
+            {buttonText}
             </button>
           </Link>
         </motion.div>

@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sachin-kaintura-32903350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
             target="_blank"
             rel="noreferrer"
             className="text-2xl transition-transform transform hover:scale-110"

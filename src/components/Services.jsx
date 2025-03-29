@@ -12,7 +12,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {/* Service Card 1 */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105">
-          <div className="h-[450px] sm:h-auto md:h-auto lg:h-auto">
+          <div className="h-[450px] sm:h-auto md:h-auto lg:h-100 ">
             <img
               src="/Personal5.jpg"
               alt="Personal Development"
@@ -35,7 +35,7 @@ const Services = () => {
 
         {/* Service Card 2 */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105">
-          <div className="h-[450px] sm:h-auto md:h-auto lg:h-96 ">
+          <div className="h-[450px] sm:h-auto md:h-auto lg:h-100 ">
             <img
               src="/CareerCoaching2.jpg"
               alt="Career Coaching"
@@ -58,7 +58,7 @@ const Services = () => {
 
         {/* Service Card 3 */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105">
-          <div className="h-[450px] sm:h-auto md:h-auto lg:h-96">
+          <div className="h-[450px] sm:h-auto md:h-auto lg:h-100">
             <img
               src="/Mindfull3.jpg" 
               alt="Mindfulness and Spiritual"

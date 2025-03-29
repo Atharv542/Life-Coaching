@@ -40,7 +40,7 @@ const AboutMe = () => {
        <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
         {/* Image Section */}
         <img
-          src='aboutMe.jpg'
+          src='about11.jpg'
           alt="Professional Coach"
           className="rounded-lg shadow-xl w-full lg:h-[650px] md:h-[550px] sm:[400px] h-[450px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
         />
@@ -68,7 +68,7 @@ const AboutMe = () => {
       {/* Mission and Vision Sections */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 mb-8 px-6 sm:px-16 lg:px-28">
         <div className="bg-gray-50 p-6 rounded-lg border-2 md:hover:-translate-y-4 cursor-default border-[#105153] hover:bg-white hover:shadow-lg transition-all duration-300 min-h-[200px] flex flex-col justify-center">
-          <h4 className="font-bold text-[#105153] text-xl sm:text-2xl mb-2">My Mission</h4>
+          <h4 className="font-bold text-[#105153] text-xl sm:text-2xl mb-2 text-center">My Mission</h4>
           <p className="text-sm sm:text-base text-gray-600">
             I inspire and guide individuals to discover their unique path of self-learning through mindfulness and personal development, empowering them to achieve their personal and family goals.
             <br />
@@ -77,7 +77,7 @@ const AboutMe = () => {
         </div>
         
         <div className="bg-gray-50 p-6 rounded-lg border-2 md:hover:-translate-y-4 cursor-default border-[#105153] hover:bg-white hover:shadow-lg transition-all duration-300 min-h-[200px] flex flex-col justify-center">
-          <h4 className="font-bold text-[#105153] text-xl sm:text-2xl mb-2">My Vision</h4>
+          <h4 className="font-bold text-[#105153] text-xl sm:text-2xl mb-2 text-center">My Vision</h4>
           <p className="text-sm sm:text-base text-gray-600">
             My vision is to empower individuals to unlock their full potential through self-learning, mindfulness, and personal development, enabling them to achieve lasting personal and family growth. I strive to create a world where people are guided by honesty, respect, empathy, and authenticity in their journey toward becoming stronger, more mindful versions of themselves.
           </p>
