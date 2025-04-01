@@ -1,4 +1,5 @@
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { PiYoutubeLogoFill } from "react-icons/pi";
 
 const Footer = () => {
   return (
@@ -31,6 +32,14 @@ const Footer = () => {
             className="text-2xl transition-transform transform hover:scale-110"
           >
             <FaLinkedin className="text-blue-400" />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCtLbwAt9orvG_e3BEQEsH7g"
+            target="_blank"
+            rel="noreferrer"
+            className=" -mt-0.5 transition-transform transform hover:scale-110"
+          >
+            <img src="icons8-youtube-48.png" className="w-9 h-9 -mt-1"/>
           </a>
         </div>
 
