@@ -44,10 +44,14 @@ const CareerCoaching = () => {
   return (
     <div className="container mx-auto px-6 py-10">
       
+      <IoArrowBackCircleOutline 
+    className="text-5xl text-teal-700 cursor-pointer -mx-3 mt-14 hidden md:block " 
+    onClick={() => navigate(-1)} 
+  />
       
       {/* Hero Section */}
-      <div className="mt-10 flex flex-col md:flex-row items-center gap-8">
-        <div className="md:w-1/2 space-y-4">
+      <div className="mt-8 flex flex-col md:flex-row items-center gap-8">
+        <div className="md:w-1/2 space-y-4 -mt-24">
           <h1 className="text-4xl font-bold mt-5 text-teal-700">Career & Executive Presence Coaching</h1>
           <p className="text-gray-600">
             Career coaching focuses on helping you navigate your professional path, whether you're looking to advance in your current role or pivot to something new.
@@ -68,7 +72,7 @@ const CareerCoaching = () => {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 hidden md:block"
         >
-          <img src="Career.jpeg" alt="Career Coaching" className="rounded-lg shadow-lg w-full h-[550px] mt-14 object-cover" />
+          <img src="Career.jpeg" alt="Career Coaching" className="rounded-lg shadow-lg w-full h-[550px] mt-12 object-cover" />
         </motion.div>
       </div>
 

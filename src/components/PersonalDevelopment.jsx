@@ -47,7 +47,10 @@ const PersonalDevelopment = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
-   
+         <IoArrowBackCircleOutline 
+    className="text-5xl text-teal-700 cursor-pointer -mx-3 mt-14 hidden md:block " 
+    onClick={() => navigate(-1)} 
+  />
 
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 items-center mt-12">

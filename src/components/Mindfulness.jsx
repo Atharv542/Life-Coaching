@@ -6,10 +6,14 @@ const MindfulnessCoaching = () => {
 
   return (
     <div className="container mx-auto px-6 py-10">
-   
+         <IoArrowBackCircleOutline 
+    className="text-5xl text-teal-700 cursor-pointer -mx-3 mt-14 hidden md:block " 
+    onClick={() => navigate(-1)} 
+  />
 
       {/* Hero Section */}
       <div className="mt-10 flex flex-col md:flex-row items-center gap-8">
+
         {/* Left Text */}
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-3xl mt-5 font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
