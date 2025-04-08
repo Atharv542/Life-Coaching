@@ -81,13 +81,13 @@ const PersonalDevelopment = () => {
         </div>
         <motion.div className="relative w-full max-h-[400px] hidden md:block">
           <motion.img
-            key={index}
-            src={images[index]}
+          
+            src='Personal52.jpg'
             alt="Personal Development"
             className="w-full h-full  rounded-lg shadow-lg "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
+            initial={{ opacity: 0, x: 50 }} 
+          animate={{ opacity: 1, x: 0 }} 
+          transition={{ duration: 0.8 }}
           />
         </motion.div>
       </div>

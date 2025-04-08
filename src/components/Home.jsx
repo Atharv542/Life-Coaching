@@ -38,7 +38,7 @@ function Home() {
           transition={{ duration: 1 }}
         >
           <img 
-            src={Background} 
+            src='Main52.jpg'
             alt="Life Coaching" 
             className="rounded-lg shadow-2xl w-full h-48 md:h-auto lg:h-auto xl:h-auto sm:max-w-40 md:max-w-md lg:max-w-lg xl:max-w-xl"
           />
