@@ -53,9 +53,9 @@ const PersonalDevelopment = () => {
   />
 
       {/* Hero Section */}
-      <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
+      <div className="grid md:grid-cols-2 gap-8 items-center mt-5">
         <div className="space-y-6 mt-12">
-          <h2 className="text-4xl mt-5 font-bold text-teal-700">Personal Development</h2>
+          <h2 className="text-4xl  font-bold text-teal-700">Personal Development</h2>
           <p className="text-gray-700 leading-relaxed">
             Personal development coaching is about unlocking your full potential and becoming the best version of yourself. Together, we will identify your core strengths, set meaningful goals, and create a plan to achieve them.
           </p>

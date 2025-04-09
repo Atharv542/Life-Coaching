@@ -50,7 +50,7 @@ const CareerCoaching = () => {
   />
       
       {/* Hero Section */}
-      <div className="mt-8 flex flex-col md:flex-row items-center gap-8">
+      <div className="mt-8 flex flex-col md:flex-row items-center gap-8 ">
         <div className="md:w-1/2 space-y-4 lg:-mt-24">
           <h1 className="text-4xl font-bold mt-5 text-teal-700">Career & Executive Presence Coaching</h1>
           <p className="text-gray-600">

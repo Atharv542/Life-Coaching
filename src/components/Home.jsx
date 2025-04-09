@@ -62,10 +62,7 @@ function Home() {
           </h2>
 
           <p className="text-sm sm:text-base md:text-lg">
-            Discover the power within you to transform your life. Through the 
-            powerful combination of personal development and mindfulness, you 
-            can cultivate a deeper awareness, unlock your true potential, and 
-            create a life filled with purpose and growth.
+          <span className=" italic text-teal-500">What if the key to transforming your life was already within you? </span><br/> Step into your journey of mindful growth and personal development—where awareness meets purpose, and potential turns into power. Through simple, yet profound practices, you’ll awaken the strength within to create lasting change and live a life of meaning and growth
           </p>
 
           {/* ✅ Animated Quote */}
