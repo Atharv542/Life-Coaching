@@ -25,13 +25,17 @@ const AboutMe = () => {
     }, 100);*/
   };
 
-  const fullText = `Hello, I'm Sachin Kaintura—though you might associate my first name with the famous Indian cricketer, I assure you, it wasn’t chosen for that reason! I’m blessed with a beautiful wife, a wonderful daughter, and a charming son, who are my greatest joys and motivation. My journey began in Mumbai, where I completed my studies and embarked on a career in hospitality. Like many Indians, my dream was to provide a better life for my family, and in 2009, I took a leap of faith and moved to New Zealand. As an immigrant and a member of the middle class, I’ve learned the values of hard work, empathy, and authenticity, which have shaped my life.
-
-  For over 20 years, I’ve been part of the hospitality industry, gaining invaluable life experiences. And before you start guessing—yes, I’m still too young to be called “uncle!” However, my real transformation began in 2019, when I was introduced to an MLM company that sparked my journey into mindfulness and personal development. It took me over 20 years to discover my true purpose.
-  
-  When I look back, I realize that even in 2004, while studying hospitality management, two lessons from my personal development course stuck with me—setting goals and working on oneself. These seeds of wisdom were there all along, but it wasn’t until 2019 that I truly began to understand their impact.
-  
-  Since then, I’ve been on a mission to help others by sharing the knowledge and wisdom I’ve gained while overcoming stress, anxiety, fear, limiting beliefs, and financial struggles. I’m not sharing this to impress you, but to impress upon you that we often work hard without realizing our true potential. I wish I had started this journey earlier, but now, my purpose is clear: to help others navigate their own challenges. I’m driven by the belief that each of us has a unique gift from God and the potential to live a fulfilling life. By being honest, respecting individual journeys, and guiding people to overcome obstacles, I aim to inspire others to unlock their full potential and achieve their dreams.`;
+  const fullText = `You don’t have to have it all figured out to take the first step.
+Hi, I’m Sachin Kaintura—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of purpose, transformation, and inner growth.
+I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of self-discovery. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone. That used to be me too.
+Where It All Began: The Foundation Years
+My journey started in the vibrant city of Mumbai, where I studied hospitality and began my career in the service industry. Like many in India’s middle class, I dreamed of giving my family a better life. That dream led me to take a leap of faith in 2009, when I moved to New Zealand.
+As an immigrant, I had to start from scratch. I embraced long hours, financial sacrifices, and the emotional toll of building a life far from home. But through it all, I held onto the values of Honesty, Respect, empathy, and authenticity—qualities that would become the backbone of who I am today.
+The Turning Point: Awakening Purpose
+Despite spending over two decades in hospitality, something inside me always felt… incomplete. I was doing well, but I wasn’t truly fulfilled.
+In 2019, everything changed when I was introduced to a network marketing company that opened the door to mindfulness and personal development. That was the spark. That’s when I started to truly understand what had been missing all along—me. My purpose.
+I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndrome—and in their place, I found a new version of myself: confident, clear, and connected to my deeper calling. Looking back, I realize the seeds were planted long ago. In fact, in 2004, during a hospitality course, I was introduced to goal setting and self-work. I just wasn’t ready to water those seeds—until now.
+`;
 
   const shortText = fullText.split(" ").slice(0, 70).join(" ") + "...";
 
@@ -49,12 +53,28 @@ const AboutMe = () => {
         <div className="animate-slide-in">
           <h2 className="text-4xl font-bold text-[#105153] mb-6">About Me</h2>
 
-          <p
-            ref={paragraphRef}
-            className="text-black mb-4 whitespace-pre-line"
-          >
-            {isExpanded ? fullText : shortText}
-          </p>
+          <p ref={paragraphRef} className="text-black mb-4 whitespace-pre-line">
+  {isExpanded ? (
+    <>
+      <span className="italic font-bold">"You don’t have to have it all figured out to take the first step."" </span><br /><br />
+      Hi, I’m <strong>Sachin Kaintura</strong>—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of <strong>purpose, transformation, and inner growth</strong>.<br /><br />
+      I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of self-discovery. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone. That used to be me too.<br /><br />
+
+      <strong className="italic">Where It All Began: The Foundation Years</strong><br />
+      My journey started in the vibrant city of Mumbai, where I studied hospitality and began my career in the service industry. Like many in India’s middle class, I dreamed of giving my family a better life. That dream led me to take a leap of faith in 2009, when I moved to New Zealand.<br />
+      As an immigrant, I had to start from scratch. I embraced long hours, financial sacrifices, and the emotional toll of building a life far from home. But through it all, I held onto the values of <strong>Honesty, Respect, empathy, and authenticity</strong>—qualities that would become the backbone of who I am today.<br /><br />
+
+      <strong className="italic">The Turning Point: Awakening Purpose</strong><br />
+      Despite spending over two decades in hospitality, something inside me always felt… incomplete. I was doing well, but I wasn’t truly fulfilled.<br /><br />
+      In 2019, everything changed when I was introduced to a network marketing company that opened the door to <strong>mindfulness and personal development</strong>. That was the spark. That’s when I started to truly understand what had been missing all along me i.e. <strong>My purpose.</strong><br /><br />
+      I began to shed layers of <strong>stress, anxiety, limiting beliefs, and imposter syndrome</strong>—and in their place, I found a new version of myself: confident, clear, and connected to my deeper calling. Looking back, I realize the seeds were planted long ago. In fact, in 2004, during a hospitality course, I was introduced to goal setting and self-work. I just wasn’t ready to water those seeds—until now.
+    </>
+  ) : (
+    <>
+      <span className="italic font-bold">"You don’t have to have it all figured out to take the first step."</span> <br/> <br/> Hi, I’m <strong>Sachin Kaintura</strong>—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of <strong>purpose, transformation</strong>, and inner growth. I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of <strong>self-discovery</strong>. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone...
+    </>
+  )}
+</p>
 
           <button
             onClick={toggleReadMore}
