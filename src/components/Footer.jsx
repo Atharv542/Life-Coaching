@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://www.instagram.com/sachin.kaintura?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noreferrer"
-            className="text-2xl transition-transform transform hover:scale-110"
+            className="text-2xl transition-transform transform hover:scale-110 "
           >
             <FaInstagram className="text-pink-500" />
           </a>

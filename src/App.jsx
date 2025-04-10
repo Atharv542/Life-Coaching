@@ -12,6 +12,7 @@ import { Toaster } from "react-hot-toast";
 import PersonalDevelopment from './components/PersonalDevelopment';
 import CareerCoaching from './components/CareerCoaching';
 import MindfulnessCoaching from './components/Mindfulness';
+import Pricing from './components/Pricing';
 
 function App() {
   // Create refs for each section
@@ -61,7 +62,7 @@ function App() {
                 
                 <Testimonials />
                 </div>
-
+                {/*<Pricing/>*/}
                 
                 <Footer />
               </>

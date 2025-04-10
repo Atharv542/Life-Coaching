@@ -52,17 +52,15 @@ function Home() {
           transition={{ duration: 1 }}
         >
           {/* ✅ Adjust font sizes dynamically */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl text-teal-500">
-            Hey There! I am{" "}
-            <span className="highlight-text">Sachin Kaintura</span>
+          <h1 className="text-2xl sm:text-3xl md:text-5xl text-white text-bold italic">
+          What if the key to transforming your life was already within you? {" "}
+            
           </h1>
 
-          <h2 className="text-xl sm:text-2xl md:text-3xl">
-            Unleash Your True Potential & Cultivate Mindful Growth
-          </h2>
+      
 
-          <p className="text-sm sm:text-base md:text-lg">
-          <span className=" italic text-teal-500">What if the key to transforming your life was already within you? </span><br/> Step into your journey of mindful growth and personal development—where awareness meets purpose, and potential turns into power. Through simple, yet profound practices, you’ll awaken the strength within to create lasting change and live a life of meaning and growth
+          <p className="text-sm text-white/80 sm:text-base md:text-lg">
+             Step into your journey of mindful growth and personal development—where awareness meets purpose, and potential turns into power. Through simple, yet profound practices, you’ll awaken the strength within to create lasting change and live a life of meaning and growth
           </p>
 
           {/* ✅ Animated Quote */}
