@@ -14,8 +14,8 @@ function Pricing() {
     {/* Starter Plan */}
     <div className="bg-white border-4 border-[#105153] rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col items-center">
       <h3 className="text-2xl font-semibold text-[#105153] mb-4">Starter</h3>
-      <p className="text-4xl font-bold text-[#105153] mb-2">₹999</p>
-      <p className="text-gray-600 mb-6">Single Session (45 mins)</p>
+      <p className="text-4xl font-bold text-[#105153] mb-2">$600</p>
+      <p className="text-gray-600 mb-6">4 weeks</p>
       <ul className="text-sm text-gray-700 mb-6 space-y-2 text-center">
         <li>✔ Personalized Guidance</li>
         <li>✔ Mindfulness Tips</li>
@@ -29,11 +29,11 @@ function Pricing() {
     {/* Growth Plan */}
     <div className="bg-white border-4 border-[#105153] rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 p-8 flex flex-col items-center ">
       <h3 className="text-2xl font-semibold text-[#105153] mb-4">Growth</h3>
-      <p className="text-4xl font-bold text-[#105153] mb-2">₹4499</p>
-      <p className="text-gray-600 mb-6">5 Sessions Pack</p>
+      <p className="text-4xl font-bold text-[#105153] mb-2">$1200</p>
+      <p className="text-gray-600 mb-6">8 weeks</p>
       <ul className="text-sm text-gray-700 mb-6 space-y-2 text-center">
         <li>✔ Deeper Coaching</li>
-        <li>✔ Customized Workbook</li>
+        <li>✔ Customized Worksheets</li>
         <li>✔ Accountability Follow-up</li>
       </ul>
       <a href="/booking" className="mt-auto bg-[#105153] hover:scale-110 text-white py-2 px-6 rounded-full  transition-all">
@@ -44,8 +44,8 @@ function Pricing() {
     {/* Premium Plan */}
     <div className="bg-white border-4 border-[#105153] rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col items-center">
       <h3 className="text-2xl font-semibold text-[#105153] mb-4">Transformation</h3>
-      <p className="text-4xl font-bold text-[#105153] mb-2">₹8999</p>
-      <p className="text-gray-600 mb-6">10 Sessions + Bonuses</p>
+      <p className="text-4xl font-bold text-[#105153] mb-2">$1800</p>
+      <p className="text-gray-600 mb-6">12 weeks</p>
       <ul className="text-sm text-gray-700 mb-6 space-y-2 text-center">
         <li>✔ Full Growth Plan</li>
         <li>✔ Priority Scheduling</li>
