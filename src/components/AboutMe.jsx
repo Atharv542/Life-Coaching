@@ -56,7 +56,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
           <p ref={paragraphRef} className="text-black mb-4 whitespace-pre-line">
   {isExpanded ? (
     <>
-      <span className="italic font-bold">"You don’t have to have it all figured out to take the first step."" </span><br /><br />
+      <span className="italic font-bold">"You don’t have to have it all figured out to take the first step." </span><br /><br />
       Hi, I’m <strong>Sachin Kaintura</strong>—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of <strong>purpose, transformation, and inner growth</strong>.<br /><br />
       I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of self-discovery. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone. That used to be me too.<br /><br />
 
