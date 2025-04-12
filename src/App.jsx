@@ -62,7 +62,7 @@ function App() {
                 
                 <Testimonials />
                 </div>
-                {/*<Pricing/>*/}
+                <Pricing/>
                 
                 <Footer />
               </>
