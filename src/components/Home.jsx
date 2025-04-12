@@ -52,8 +52,8 @@ function Home() {
           transition={{ duration: 1 }}
         >
           {/* ✅ Adjust font sizes dynamically */}
-          <h1 className="text-2xl sm:text-3xl md:text-5xl text-white text-bold italic">
-          What if the key to transforming your life was already within you? {" "}
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-white text-bold italic">
+          "What if the key to transforming your life was already within you?" {" "}
             
           </h1>
 
