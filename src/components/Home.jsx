@@ -38,7 +38,7 @@ function Home() {
           transition={{ duration: 1 }}
         >
           <img 
-            src='Main52.jpg'
+            src='Background.jpeg'
             alt="Life Coaching" 
             className="rounded-lg shadow-2xl w-full h-48 md:h-auto lg:h-auto xl:h-auto sm:max-w-40 md:max-w-md lg:max-w-lg xl:max-w-xl"
           />
@@ -52,8 +52,8 @@ function Home() {
           transition={{ duration: 1 }}
         >
           {/* ✅ Adjust font sizes dynamically */}
-          <h1 className="text-2xl sm:text-3xl md:text-5xl text-white text-bold italic">
-          What if the key to transforming your life was already within you? {" "}
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-white text-bold italic">
+          "What if the key to transforming your life was already within you?" {" "}
             
           </h1>
 

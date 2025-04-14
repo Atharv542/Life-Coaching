@@ -13,17 +13,17 @@ const strategies = [
   {
     title: "Goal Setting",
     description: "Set SMART goals that align with your values and vision.",
-    img: "/G1.jpg",
+    img: "/PD-3.jpg",
   },
   {
     title: "Mindset & Habits",
     description: "Develop sustainable habits that create lasting positive change.",
-    img: "/H1.jpg",
+    img: "/PD-1.jpg",
   },
   {
     title: "Self-Reflection",
     description: "Embrace continuous learning and self-awareness.",
-    img: "S1.jpg",
+    img: "PD-2.jpg",
   },
 ];
 
@@ -97,15 +97,15 @@ const PersonalDevelopment = () => {
         <h2 className="text-3xl font-bold text-teal-700 text-center mb-6">Strategies</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {strategies.map((strategy, i) => (
-            <motion.div key={i} className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-2"
+            <motion.div key={i} className="bg-gray-50  rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.2 }}
               viewport={{ once: true }}
             >
-              <img src={strategy.img} alt={strategy.title} className="w-70  rounded-full h-70 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-800">{strategy.title}</h3>
-              <p className="text-gray-600">{strategy.description}</p>
+              <img src={strategy.img} alt={strategy.title} className="w-full rounded-xl h-auto mx-auto mb-4" />
+              <h3 className="text-xl px-6 font-semibold text-gray-800">{strategy.title}</h3>
+              <p className="text-gray-600 text-lg px-6 py-2">{strategy.description}</p>
             </motion.div>
           ))}
         </div>

@@ -20,6 +20,7 @@ function App() {
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
   const storiesRef= useRef(null);
+  const pricingRef= useRef(null);
 
   // Scroll to section function
   const scrollToSection = (section) => {
@@ -33,7 +34,9 @@ function App() {
     else if (section === 'successstories' && storiesRef.current) {
       storiesRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-
+    else if(section === 'pricing' && pricingRef.current) {
+      pricingRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   return (
@@ -62,7 +65,10 @@ function App() {
                 
                 <Testimonials />
                 </div>
-                {/*<Pricing/>*/}
+                <div style={{ paddingTop: '80px'}} ref={pricingRef}>
+                <Pricing/>
+                </div>
+                
                 
                 <Footer />
               </>

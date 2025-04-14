@@ -44,9 +44,9 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
        <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
         {/* Image Section */}
         <img
-          src='aboutMe60.jpg'
+          src='aboutF.jpg'
           alt="Professional Coach"
-          className="rounded-lg shadow-xl w-full lg:h-[500px] md:h-[450px] sm:[350px] h-[400px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
+          className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[350px] h-[500px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
         />
 
         {/* Content Section */}
@@ -68,14 +68,6 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
       Despite spending over two decades in hospitality, something inside me always felt… incomplete. I was doing well, but I wasn’t truly fulfilled.<br /><br />
       In 2019, everything changed when I was introduced to a network marketing company that opened the door to <strong>mindfulness and personal development</strong>. That was the spark. That’s when I started to truly understand what had been missing all along me i.e. <strong>My purpose.</strong><br /><br />
       I began to shed layers of <strong>stress, anxiety, limiting beliefs, and imposter syndrome</strong>—and in their place, I found a new version of myself: confident, clear, and connected to my deeper calling. Looking back, I realize the seeds were planted long ago. In fact, in 2004, during a hospitality course, I was introduced to goal setting and self-work. I just wasn’t ready to water those seeds—until now.
-
-      <br/><br/><strong className="italic">My Mission Today: Helping You Step into Your Power</strong><br/>
-
-Today, I’m a Personal Development and Mindfulness Coach , and my mission is clear:
-I inspire and guide individuals to discover their unique path of self-learning through mindfulness and personal development, empowering them to achieve their personal and family goals.
-
-If you’re feeling overwhelmed by expectations, held back by fear or self-doubt, or unsure how to balance your responsibilities while chasing your dreams—I hear you. I’ve been there. And I’ve developed a coaching approach that’s designed to help you rise.
-
     </>
   ) : (
     <>

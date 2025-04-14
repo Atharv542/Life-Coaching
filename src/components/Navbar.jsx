@@ -36,7 +36,7 @@ const Navbar = ({ scrollToSection }) => {
 
       {/* ✅ Desktop Menu (Hidden on Mobile) */}
       <ul className="hidden md:flex space-x-6">
-        {["Home", "Services", "About", "Success Stories"].map((item, index) => (
+        {["Home", "Services", "About", "Success Stories","Pricing"].map((item, index) => (
           <li key={index}>
             <button
               onClick={() => handleNavigation(item.toLowerCase().replace(" ", ""))}
@@ -66,7 +66,7 @@ const Navbar = ({ scrollToSection }) => {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
           >
-            {["Home", "Services", "About", "Success Stories"].map((item, index) => (
+            {["Home", "Services", "About", "Success Stories","Pricing"].map((item, index) => (
               <button
                 key={index}
                 onClick={() => handleNavigation(item.toLowerCase().replace(" ", ""))}

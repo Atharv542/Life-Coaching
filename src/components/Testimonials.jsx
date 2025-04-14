@@ -42,39 +42,49 @@ const Testimonials = () => {
         >
           {/* Video Testimonial 1 */}
           <SwiperSlide>
-            <div className="flex justify-center items-center h-full">
-              <div className="w-full max-w-lg">
-                <video
-                  className="w-full max-h-100 rounded-lg shadow-lg"
-                  controls
-                  muted
-                >
-                  <source src="/Review.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </SwiperSlide>
+  <div
+    className="flex justify-center items-center h-full"
+    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+  >
+    <div className="w-full max-w-lg">
+      <video
+        className="w-full max-h-100 rounded-lg shadow-lg"
+        controls
+        muted
+      >
+        <source src="/Review.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</SwiperSlide>
 
           {/* Video Testimonial 2 */}
           <SwiperSlide>
-            <div className="flex justify-center items-center h-full">
-              <div className="w-full max-w-lg">
-                <video
-                  className="w-full max-h-100 rounded-lg shadow-lg"
-                  controls
-                  muted
-                >
-                  <source src="/testimonial2.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </SwiperSlide>
+  <div
+    className="flex justify-center items-center h-full"
+    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+  >
+    <div className="w-full max-w-lg">
+      <video
+        className="w-full max-h-100 rounded-lg shadow-lg"
+        controls
+        muted
+      >
+        <source src="/Review.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</SwiperSlide>
 
           {/* Text Testimonial 1 */}
           <SwiperSlide>
-            <div className="flex justify-center items-center h-full">
+            <div className="flex justify-center items-center h-full"
+                onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+                onMouseLeave={() => swiperRef.current?.autoplay?.start()}>
               <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                   "I met Sachin on a Facebook group about coaching. He offered 3 free coaching sessions. 
@@ -95,7 +105,9 @@ const Testimonials = () => {
 
           {/* Text Testimonial 2 */}
           <SwiperSlide>
-            <div className="flex justify-center items-center h-full">
+            <div className="flex justify-center items-center h-full"
+                onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+                onMouseLeave={() => swiperRef.current?.autoplay?.start()}>
               <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                   "My experience with Sachin as a coach has been exceptional. He inspires trust quickly 
