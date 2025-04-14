@@ -65,10 +65,14 @@ function App() {
                 
                 <Testimonials />
                 </div>
+<<<<<<< HEAD
                 <div style={{ paddingTop: '80px'}} ref={pricingRef}>
                 <Pricing/>
                 </div>
                 
+=======
+                <Pricing/>
+>>>>>>> cb9a41c5c609732d9be2b968ca975cd0d5bbd52c
                 
                 <Footer />
               </>
