@@ -40,7 +40,6 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
   const shortText = fullText.split(" ").slice(0, 70).join(" ") + "...";
 
   return (
-<<<<<<< HEAD
     <div className="mx-auto  ">
        <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
         {/* Image Section */}
@@ -49,20 +48,16 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
           alt="Professional Coach"
           className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[350px] h-[500px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start"
         />
-=======
-   <div className="mx-auto">
-  <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
-    
-    {/* Content Section - NOW FIRST */}
-    <div className="animate-slide-in order-2 md:order-1">
-      <h2 className="text-4xl font-bold text-[#105153] mb-6">About Me</h2>
->>>>>>> cb9a41c5c609732d9be2b968ca975cd0d5bbd52c
 
-      <p ref={paragraphRef} className="text-black mb-4 whitespace-pre-line">
-        {isExpanded ? (
-          <>
-            <span className="italic font-bold">"You don’t have to have it all figured out to take the first step." </span><br /><br />
-               Hi, I’m <strong>Sachin Kaintura</strong>—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of <strong>purpose, transformation, and inner growth</strong>.<br /><br />
+        {/* Content Section */}
+        <div className="animate-slide-in">
+          <h2 className="text-4xl font-bold text-[#105153] mb-6">About Me</h2>
+
+          <p ref={paragraphRef} className="text-black mb-4 whitespace-pre-line">
+  {isExpanded ? (
+    <>
+      <span className="italic font-bold">"You don’t have to have it all figured out to take the first step."" </span><br /><br />
+      Hi, I’m <strong>Sachin Kaintura</strong>—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of <strong>purpose, transformation, and inner growth</strong>.<br /><br />
       I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of self-discovery. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone. That used to be me too.<br /><br />
 
       <strong className="italic">Where It All Began: The Foundation Years</strong><br />
@@ -73,7 +68,6 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
       Despite spending over two decades in hospitality, something inside me always felt… incomplete. I was doing well, but I wasn’t truly fulfilled.<br /><br />
       In 2019, everything changed when I was introduced to a network marketing company that opened the door to <strong>mindfulness and personal development</strong>. That was the spark. That’s when I started to truly understand what had been missing all along me i.e. <strong>My purpose.</strong><br /><br />
       I began to shed layers of <strong>stress, anxiety, limiting beliefs, and imposter syndrome</strong>—and in their place, I found a new version of myself: confident, clear, and connected to my deeper calling. Looking back, I realize the seeds were planted long ago. In fact, in 2004, during a hospitality course, I was introduced to goal setting and self-work. I just wasn’t ready to water those seeds—until now.
-<<<<<<< HEAD
     </>
   ) : (
     <>
@@ -90,35 +84,6 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
           </button>
         </div>
       </div>
-=======
-          </>
-        ) : (
-          <>
-            <span className="italic font-bold">"You don’t have to have it all figured out to take the first step."</span> <br/> <br/> Hi, I’m <strong>Sachin Kaintura</strong>—and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of <strong>purpose, transformation</strong>, and inner growth. I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of <strong>self-discovery</strong>. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone...
-          </>
-        )}
-      </p>
-
-      <button
-        onClick={toggleReadMore}
-        className="text-blue-600 cursor-pointer font-semibold underline mb-6 focus:outline-none"
-      >
-        {isExpanded ? "Read Less" : "Read More"}
-      </button>
-    </div>
-
-    {/* Image Section - NOW SECOND */}
-    <img
-      src='AboutMe7.jpeg'
-      alt="Professional Coach"
-      className="rounded-lg shadow-xl w-full lg:h-[500px] md:h-[450px] sm:[350px] h-[400px] transform hover:scale-105 transition-transform duration-500 animate-fade-in order-1 md:order-2 self-start"
-    />
-  </div>
-
-  {/* [Mission & Vision section remains unchanged] */}
-</div>
-
->>>>>>> cb9a41c5c609732d9be2b968ca975cd0d5bbd52c
 
       {/* Mission and Vision Sections */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 mb-8 px-6 sm:px-16 lg:px-28">
