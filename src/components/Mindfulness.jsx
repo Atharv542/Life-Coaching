@@ -16,7 +16,7 @@ const MindfulnessCoaching = () => {
 
         {/* Left Text */}
         <div className="md:w-1/2 space-y-4">
-          <h1 className="text-3xl mt-5 font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
+          <h1 className="text-4xl mt-8 md:-mt-10 font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
           <p className="text-gray-600">
             Mindfulness is the practice of staying fully present in the moment, helping you manage stress, improve focus,
             and enhance your decision-making ability. In our sessions, you will learn tools and techniques to cultivate
@@ -47,7 +47,7 @@ const MindfulnessCoaching = () => {
       </div>
 
       {/* Mindfulness Practices Section */}
-      <h2 className="text-3xl font-semibold text-center mt-16 text-teal-700">Mindfulness Practices</h2>
+      <h2 className="text-4xl font-bold text-center mt-16 text-teal-700">Mindfulness Practices</h2>
 
       {/* Grid Section */}
       <div className="grid md:grid-cols-3 gap-6 mt-8">

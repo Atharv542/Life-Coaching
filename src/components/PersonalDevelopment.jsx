@@ -94,7 +94,7 @@ const PersonalDevelopment = () => {
 
       {/* Strategies Section */}
       <div className="mt-16">
-        <h2 className="text-3xl font-bold text-teal-700 text-center mb-6">Strategies</h2>
+        <h2 className="text-4xl font-bold text-teal-700 text-center mb-6">Strategies</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {strategies.map((strategy, i) => (
             <motion.div key={i} className="bg-gray-50  rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2"
@@ -114,7 +114,7 @@ const PersonalDevelopment = () => {
       {/* Timeline Section */}
  
   <div className="mt-16">
-  <h2 className="text-3xl font-bold text-teal-700 text-center mb-8">
+  <h2 className="text-4xl font-bold text-teal-700 text-center mb-8">
     How to Start Your Personal Development Journey?
   </h2>
   <div className="relative space-y-6">

@@ -73,7 +73,7 @@ const Testimonials = () => {
         controls
         muted
       >
-        <source src="/Review.mp4" type="video/mp4" />
+        <source src="/testimonial2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
