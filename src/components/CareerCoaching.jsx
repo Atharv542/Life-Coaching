@@ -17,7 +17,7 @@ const strategies = [
   {
     title: "Building Emotional Intelligence ",
     description: "Develop emotional intelligence by improving your self-awareness, empathy, and emotional regulation, enabling you to navigate challenges with greater resilience and build stronger, more meaningful relationships.",
-    image: "CC-1.jpg",
+    image: "Em-1.jpg",
   },
 ];
 

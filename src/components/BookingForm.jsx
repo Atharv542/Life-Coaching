@@ -29,6 +29,20 @@ const BookingForm = () => {
             console.error(error);
           }
         );
+        emailjs.sendForm(
+          "service_m2mqngm",
+          "template_inmmn0l",
+          formRef.current,
+          "akzRyfz66xpuRZCnF"
+        )
+        .then(
+          ()=>{
+            console.log('confirmation email sent');
+          },
+          (error)=>{
+            console.log(error);
+          }
+        )
     } else {
       console.error("Form reference is invalid.");
     }
