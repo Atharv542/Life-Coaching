@@ -53,7 +53,7 @@ const BookingForm = () => {
       
 
       <div className="bg-white  rounded-lg p-8 border-2 border-teal-500 mt-14 w-full max-w-lg">
-        <h2 className="text-2xl font-semibold text-gray-700 mb-4 text-center">
+        <h2 className="text-2xl md:text-3xl font-bold text-teal-700 mb-4 text-center">
         Discovery conversation
         </h2>
 
