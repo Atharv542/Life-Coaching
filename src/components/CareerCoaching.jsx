@@ -6,17 +6,17 @@ import { useNavigate } from "react-router-dom";
 const strategies = [
   {
     title: "Developing a Strong Personal Brand",
-    description: "Identify and articulate your unique strengths and values, guiding you in creating a powerful personal brand that authentically represents who you are and resonates with your audience.",
+    description: "For professionals ready to stand out with authenticity. I'll help you uncover your strengths, define your values, and build a personal brand that feels true to you and resonates with the world.",
     image: "CC-2.jpg",
   },
   {
     title: "Mastering Communication Skills ",
-    description: "Master communication skills by enhancing your ability to listen actively, speak with clarity, and connect authentically, empowering you to build stronger relationships and influence others effectively.",
+    description: " For those who want to connect with confidence. I’ll help you master communication by listening deeply, speaking clearly, and building authentic relationships that leave a lasting impact.",
     image: "CC-3.jpg",
   },
   {
     title: "Building Emotional Intelligence ",
-    description: "Develop emotional intelligence by improving your self-awareness, empathy, and emotional regulation, enabling you to navigate challenges with greater resilience and build stronger, more meaningful relationships.",
+    description: "For anyone seeking deeper connections and inner strength. I’ll help you build emotional intelligence through self-awareness, empathy, and emotional balance, so you can navigate life’s challenges with confidence and compassion.",
     image: "Em-1.jpg",
   },
 ];
@@ -54,11 +54,9 @@ const CareerCoaching = () => {
         <div className="md:w-1/2 space-y-4 lg:-mt-24">
           <h1 className="text-4xl font-bold mt-8 md:mt-5 text-teal-700">Career & Executive Presence Coaching</h1>
           <p className="text-gray-600">
-            Career coaching focuses on helping you navigate your professional path, whether you're looking to advance in your current role or pivot to something new.
+          Whether you're feeling unfulfilled at work, uncertain about your next step, or struggling with self-doubt, I’ll help you gain clarity, uncover your strengths, and create a step-by-step roadmap to a career that excites and empowers you. Together, we’ll silence the overthinking, overcome procrastination, and take confident action toward the career you truly deserve. 
           </p>
-          <p className="text-gray-600">
-            Executive presence is about cultivating the leadership qualities that inspire confidence in others.
-          </p>
+          
           <ul className="text-teal-700 list-disc mx-5">
             <li className="font-bold">Clarity & Vision</li>
             <li className="font-bold">Leadership & Professional Development</li>
@@ -83,7 +81,7 @@ const CareerCoaching = () => {
         animate={animateStrategies ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
       >
-        Strategies for Career Growth
+        Stuck to Soaring: Your Next Career Move Starts Here.
       </motion.h2>
       
       {/* Strategies Grid */}

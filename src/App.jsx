@@ -13,6 +13,9 @@ import PersonalDevelopment from './components/PersonalDevelopment';
 import CareerCoaching from './components/CareerCoaching';
 import MindfulnessCoaching from './components/Mindfulness';
 import Pricing from './components/Pricing';
+import PersonalPackage from './components/PersonalPackage';
+import CareerPackage from './components/CareerPricing';
+import MindfulnessPackage from './components/MindfulnessPackage';
 
 function App() {
   // Create refs for each section
@@ -95,6 +98,24 @@ function App() {
           <Route path="/mindfull-coaching" element={
             <div>
               <MindfulnessCoaching/>
+              <Footer/>
+            </div>
+          }/>
+          <Route path="/personal-package" element={
+            <div>
+              <PersonalPackage/>
+              <Footer/>
+            </div>
+          }/>
+           <Route path="/career-package" element={
+            <div>
+              <CareerPackage/>
+              <Footer/>
+            </div>
+          }/>
+          <Route path="/mindful-package" element={
+            <div>
+              <MindfulnessPackage/>
               <Footer/>
             </div>
           }/>

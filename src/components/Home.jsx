@@ -52,15 +52,15 @@ function Home() {
           transition={{ duration: 1 }}
         >
           {/* ✅ Adjust font sizes dynamically */}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl text-white text-bold italic">
-          "What if the key to transforming your life was already within you?" {" "}
+          <h1 className="text-2xl sm:text-xl md:text-4xl text-white text-bold italic">
+          "Do you find yourself stuck in overthinking, unsure what step to take next?" {" "}
             
           </h1>
 
       
 
           <p className="text-sm text-white/80 sm:text-base md:text-lg">
-             Step into your journey of mindful growth and personal development—where awareness meets purpose, and potential turns into power. Through simple, yet profound practices, you’ll awaken the strength within to create lasting change and live a life of meaning and growth
+         Maybe you’re putting things off, your dream job, that tough conversation, or even quality time with your family because it all feels too overwhelming. What if the clarity you’re searching for isn’t out there, but already within you? Through mindful growth and simple shifts, you can move from analysis paralysis to purposeful action. Let’s start your journey together.
           </p>
 
           {/* ✅ Animated Quote */}

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
-
+import { motion } from "framer-motion";
 const MindfulnessCoaching = () => {
   const navigate = useNavigate();
 
@@ -18,16 +18,22 @@ const MindfulnessCoaching = () => {
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-4xl mt-8 md:-mt-10 font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
           <p className="text-gray-600">
-            Mindfulness is the practice of staying fully present in the moment, helping you manage stress, improve focus,
-            and enhance your decision-making ability. In our sessions, you will learn tools and techniques to cultivate
-            mindfulness, creating a greater sense of calm and clarity in both your professional and personal life.But beyond just stress management, mindfulness can open the door to deeper self-awareness and spiritual growth.
+          Awaken Your Soul: Cultivating Mindfulness for Spiritual Harmony.(Heading)
+          You’ll learn to slow down, be fully present, and navigate life with calm and clarity. I’ll guide you through simple, powerful mindfulness practices that help reduce stress, sharpen your focus, and improve decision-making. Beyond just managing the chaos, together we’ll uncover deeper self-awareness and unlock a sense of inner peace and purpose both at work and at home.
           </p>
           <ul className="text-teal-700 list-disc mx-5">
-            <li className="font-bold">Conscious Mind <span className="text-gray-700 font-semibold">– How our conscious mind behaves.</span> </li>
-            <li className="font-bold">Subconscious Mind <span className="text-gray-700 font-semibold">– How our subconscious mind works.</span></li>
-            <li className="font-bold">Body <span className="text-gray-700 font-semibold">- How does our body reacts & takes action.</span></li>
-            <li className="font-bold">Soul <span className="text-gray-700 font-semibold">– How our soul creates physical aspects of ourselves.</span></li>
+            <li className="font-bold">Conscious Mind <span className="text-gray-700 font-semibold">– You’ll think with clarity—I’ll help you make intentional choices.</span> </li>
+            <li className="font-bold">Subconscious Mind <span className="text-gray-700 font-semibold">– You’ll break old patterns—I’ll guide you to rewire your mindset.</span></li>
+            <li className="font-bold">Body <span className="text-gray-700 font-semibold">- You’ll tune into your body—I’ll help you act with purpose.</span></li>
+            <li className="font-bold">Soul <span className="text-gray-700 font-semibold">– You’ll connect with your soul—I’ll support you in living your truth.</span></li>
           </ul>
+          <motion.p className="text-gray-600 italic"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
+          >
+            "Mind, Body & Soul-My mind is brilliant,my body is healthy & my solu is calm."
+          </motion.p>
           <button
             className="bg-teal-600 text-white cursor-pointer px-6 py-2 mt-3 rounded-lg hover:bg-teal-700 transition"
             onClick={() => navigate("/booking")}
@@ -47,7 +53,7 @@ const MindfulnessCoaching = () => {
       </div>
 
       {/* Mindfulness Practices Section */}
-      <h2 className="text-4xl font-bold text-center mt-16 text-teal-700">Mindfulness Practices</h2>
+      <h2 className="text-3xl font-bold text-center mt-16 text-teal-700">Calm the Mind.Heal the Heart. Align the Soul</h2>
 
       {/* Grid Section */}
       <div className="grid md:grid-cols-3 gap-6 mt-8">
@@ -57,7 +63,8 @@ const MindfulnessCoaching = () => {
           <h3 className="text-xl font-semibold mt-4">Meditation Practices</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-gray-600">
-            Cultivate inner peace, increase self-awareness, and clear mental blockages for greater emotional healing and clarity.
+          Find your calm, heal from within, and gain clarity, meditation helps you unlock peace and purpose, one breath at a time.
+
           </p>
         </div>
 
@@ -67,7 +74,7 @@ const MindfulnessCoaching = () => {
           <h3 className="text-xl font-semibold mt-4">Spiritual Connection & Inner Peace</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-gray-600">
-            Mindful reflection, gratitude, and intentional stillness help align with your true self for a deeper sense of harmony.
+          You’ll discover deeper peace and purpose. I’ll guide you through mindful reflection and gratitude to reconnect with your true self and feel truly aligned.
           </p>
         </div>
 
@@ -77,7 +84,7 @@ const MindfulnessCoaching = () => {
           <h3 className="text-xl font-semibold mt-4">Emotional Healing & Energy Clearing</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-gray-600">
-            Overcome mental barriers like fear and limiting beliefs, release negative emotions, and create space for transformation.
+          You’ll release what’s holding you back. I’ll help you clear emotional blocks and limiting beliefs so you can heal, grow, and thrive.
           </p>
         </div>
       </div>

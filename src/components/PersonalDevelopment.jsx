@@ -12,17 +12,17 @@ const images = [
 const strategies = [
   {
     title: "Goal Setting",
-    description: "Set SMART goals that align with your values and vision.",
+    description: "I’ll help you set SMART goals that align with your values, guiding you toward the success you’re meant for.",
     img: "/PD-3.jpg",
   },
   {
     title: "Mindset & Habits",
-    description: "Develop sustainable habits that create lasting positive change.",
+    description: "I’ll help you build lasting habits that drive positive, sustainable change.",
     img: "/PD-1.jpg",
   },
   {
     title: "Self-Reflection",
-    description: "Embrace continuous learning and self-awareness.",
+    description: " I’ll help you embrace learning and self-awareness to unlock your full potential.",
     img: "PD-2.jpg",
   },
 ];
@@ -57,13 +57,12 @@ const PersonalDevelopment = () => {
         <div className="space-y-6 mt-12">
           <h2 className="text-4xl  font-bold text-teal-700">Personal Development</h2>
           <p className="text-gray-700 leading-relaxed">
-            Personal development coaching is about unlocking your full potential and becoming the best version of yourself. Together, we will identify your core strengths, set meaningful goals, and create a plan to achieve them.
+          As your personal development coach, I help you unlock your full potential and become the best version of yourself. Together, we’ll clarify your goals, shift limiting beliefs, and build habits that lead to real, lasting growth. This is about more than success—it’s about living with purpose, confidence, and fulfilment. Social Growth – How you communicate & focus on effective listening.
           </p>
           <ul className="text-gray-600 space-y-2">
-            <li className="font-semibold">✅ Social Growth</li>
-            <li className="font-semibold">✅ Spiritual Growth</li>
-            <li className="font-semibold">✅ Emotional Growth</li>
-            <li className="font-semibold">✅ Physical Growth</li>
+            <li className="font-semibold">✅ Spiritual Growth--How to connect yourself on a holistic level & finding inner peace. </li>
+            <li className="font-semibold">✅ Emotional Growth-How to develop & manage your feelings.</li>
+            <li className="font-semibold">✅ Physical Growth-How to take control of your body.</li>
           </ul>
           <motion.p className="text-gray-600 italic"
             initial={{ opacity: 0 }}
@@ -94,7 +93,7 @@ const PersonalDevelopment = () => {
 
       {/* Strategies Section */}
       <div className="mt-16">
-        <h2 className="text-4xl font-bold text-teal-700 text-center mb-6">Strategies</h2>
+        <h2 className="text-4xl font-bold text-teal-700 text-center mb-6">Empower Growth: Master Goals, Mindset & Habits.</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {strategies.map((strategy, i) => (
             <motion.div key={i} className="bg-gray-50  rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2"
@@ -115,7 +114,7 @@ const PersonalDevelopment = () => {
  
   <div className="mt-16">
   <h2 className="text-4xl font-bold text-teal-700 text-center mb-8">
-    How to Start Your Personal Development Journey?
+   Let’s Transform Your Mindset and Life.
   </h2>
   <div className="relative space-y-6">
     {steps.map((step, index) => (
