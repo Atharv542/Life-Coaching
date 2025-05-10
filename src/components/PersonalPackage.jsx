@@ -51,7 +51,7 @@ const PersonalPackage = () => {
 
       <motion.section className="mb-10" {...fadeIn("up", 0.5)}>
         <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-teal-700">🧭 Weekly Breakdown</h2>
-        <ol className="pl-5 ml-6  space-y-2 text-base sm:text-lg text-gray-700">
+        <ol className="pl-5 space-y-2 text-base sm:text-lg text-gray-700">
           <li>Week 1: Clarity & Vision</li>
           <li>Week 2: SMART Goal Setting</li>
           <li>Week 3: Mindset Mastery</li>
@@ -86,10 +86,24 @@ const PersonalPackage = () => {
           </div>
         </div>
       </motion.section>
+
+      {/* CTA Button */}
+      <motion.div
+        className="text-center mt-12"
+        {...fadeIn("up", 0.7)}
+      >
+        <a
+          href="/booking" // Change to your actual booking or contact link
+          className="inline-block px-6 py-3 text-white bg-teal-700 hover:bg-teal-800 transition rounded-md cursor-pointer text-xl  sm:text-lg font-semibold shadow-lg"
+        >
+          Connect Now
+        </a>
+      </motion.div>
     </div>
   );
 };
 
 export default PersonalPackage;
+
 
 

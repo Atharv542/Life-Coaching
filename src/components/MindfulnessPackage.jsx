@@ -99,8 +99,18 @@ const MindfulnessPackage = () => {
               </ul>
             </p>
           </div>
+          
         </div>
+        
       </motion.section>
+      <motion.div className="text-center mt-12" {...fadeIn("up", 0.8)}>
+              <a
+                href="/booking" // Change to your actual booking or contact link
+                className="inline-block px-6 py-3 text-white bg-teal-700 hover:bg-teal-800 transition rounded-md cursor-pointer text-xl  sm:text-lg font-semibold shadow-lg"
+              >
+                Connect Now
+              </a>
+            </motion.div>
     </div>
   );
 };

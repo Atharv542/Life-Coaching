@@ -23,6 +23,7 @@ const CareerPackage = () => {
         Career Growth Strategies Designed for Your Next Big Move
       </motion.p>
 
+      {/* Program Overview */}
       <motion.section className="mb-12" {...fadeIn("up", 0.3)}>
         <h2 className="text-2xl sm:text-3xl font-bold text-teal-700 mb-4">✨ Program Overview</h2>
         <p className="text-base sm:text-lg leading-relaxed">
@@ -32,6 +33,7 @@ const CareerPackage = () => {
         </p>
       </motion.section>
 
+      {/* What You'll Gain */}
       <motion.section className="mb-12 bg-white p-6 sm:p-8 rounded-2xl shadow-lg border-l-4 border-teal-400" {...fadeIn("up", 0.4)}>
         <h2 className="text-2xl sm:text-3xl font-semibold text-teal-700 mb-4">💼 What You’ll Gain</h2>
         <ul className="list-disc pl-5 space-y-3 text-base sm:text-lg text-gray-700">
@@ -44,9 +46,10 @@ const CareerPackage = () => {
         </ul>
       </motion.section>
 
+      {/* Package Includes */}
       <motion.section className="mb-12 bg-teal-50 p-6 sm:p-8 rounded-2xl shadow-xl border-l-4 border-teal-500" {...fadeIn("up", 0.5)}>
         <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-teal-800">🗂️ Package Includes</h2>
-        <ul className=" pl-5 space-y-3 text-base sm:text-lg text-gray-700">
+        <ul className="list-disc pl-5 space-y-3 text-base sm:text-lg text-gray-700">
           <li>✅ 8 Weekly 1:1 Coaching Sessions (60 mins each via Zoom)</li>
           <li>✅ Clarity & Vision Session: Define your ideal career and eliminate blockers</li>
           <li>✅ Leadership & Professional Development Coaching</li>
@@ -59,9 +62,10 @@ const CareerPackage = () => {
         </ul>
       </motion.section>
 
+      {/* Weekly Focus */}
       <motion.section className="mb-12" {...fadeIn("up", 0.6)}>
         <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-teal-700">📅 Weekly Focus Areas</h2>
-        <ol className=" pl-5 ml-6 space-y-2 text-base sm:text-lg text-gray-700">
+        <ol className="list-decimal pl-5 space-y-2 text-base sm:text-lg text-gray-700">
           <li>Week 1: Career Clarity & Vision Mapping</li>
           <li>Week 2: Uncover Strengths & Core Values</li>
           <li>Week 3: Professional Branding & Presence</li>
@@ -73,6 +77,7 @@ const CareerPackage = () => {
         </ol>
       </motion.section>
 
+      {/* Investment Options */}
       <motion.section className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg border-l-4 border-teal-600" {...fadeIn("up", 0.7)}>
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-teal-800">💰 Investment Options</h2>
         <div className="space-y-6 text-base sm:text-lg text-gray-700">
@@ -88,7 +93,7 @@ const CareerPackage = () => {
             <p>$1300</p>
             <p>
               Everything in the Standard Package plus:
-              <ul className=" pl-6 mt-2 space-y-1">
+              <ul className="list-disc pl-6 mt-2 space-y-1">
                 <li>🔹 1 Bonus Session (within 2 months post-program)</li>
                 <li>🔹 Personalized Strengths & Brand Report</li>
                 <li>🔹 Priority Voice Note Support (Mon–Fri)</li>
@@ -97,8 +102,19 @@ const CareerPackage = () => {
           </div>
         </div>
       </motion.section>
+
+      {/* CTA Button */}
+      <motion.div className="text-center mt-12" {...fadeIn("up", 0.8)}>
+        <a
+          href="/booking" // Change to your actual booking or contact link
+          className="inline-block px-6 py-3 text-white bg-teal-700 hover:bg-teal-800 transition rounded-md cursor-pointer text-xl  sm:text-lg font-semibold shadow-lg"
+        >
+          Connect Now
+        </a>
+      </motion.div>
     </div>
   );
 };
 
 export default CareerPackage;
+
