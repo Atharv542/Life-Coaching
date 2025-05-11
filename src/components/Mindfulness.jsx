@@ -18,7 +18,7 @@ const MindfulnessCoaching = () => {
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-4xl mt-8 md:-mt-10 font-bold text-teal-700 ">Mindfulness & Spiritual Growth</h1>
           <p className="text-gray-600">
-          Awaken Your Soul: Cultivating Mindfulness for Spiritual Harmony.(Heading)
+          <span className="font-bold text-gray-800 italic text-lg">Awaken Your Soul: Cultivating Mindfulness for Spiritual Harmony.</span><br/>
           You’ll learn to slow down, be fully present, and navigate life with calm and clarity. I’ll guide you through simple, powerful mindfulness practices that help reduce stress, sharpen your focus, and improve decision-making. Beyond just managing the chaos, together we’ll uncover deeper self-awareness and unlock a sense of inner peace and purpose both at work and at home.
           </p>
           <ul className="text-teal-700 list-disc mx-5">
@@ -32,7 +32,7 @@ const MindfulnessCoaching = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
           >
-            "Mind, Body & Soul-My mind is brilliant,my body is healthy & my solu is calm."
+            "Mind, Body & Soul-My mind is brilliant,my body is healthy & my soul is calm."
           </motion.p>
           <button
             className="bg-teal-600 text-white cursor-pointer px-6 py-2 mt-3 rounded-lg hover:bg-teal-700 transition"
@@ -53,7 +53,7 @@ const MindfulnessCoaching = () => {
       </div>
 
       {/* Mindfulness Practices Section */}
-      <h2 className="text-3xl font-bold text-center mt-16 text-teal-700">Calm the Mind.Heal the Heart. Align the Soul</h2>
+      <h2 className="text-3xl font-bold text-center mt-16 text-teal-700">Calm the Mind • Heal the Heart • Align the Soul</h2>
 
       {/* Grid Section */}
       <div className="grid md:grid-cols-3 gap-6 mt-8">

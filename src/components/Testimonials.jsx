@@ -16,7 +16,7 @@ const Testimonials = () => {
 
     handleResize();
     window.addEventListener("resize", handleResize);
-    
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -32,7 +32,7 @@ const Testimonials = () => {
           spaceBetween={20}
           slidesPerView={1}
           navigation={{
-            enabled: true, 
+            enabled: true,
           }}
           pagination={{ clickable: !isMobile }} // Disable pagination dots on mobile
           loop={true}
@@ -42,58 +42,63 @@ const Testimonials = () => {
         >
           {/* Video Testimonial 1 */}
           <SwiperSlide>
-  <div
-    className="flex justify-center items-center h-full"
-    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
-  >
-    <div className="w-full max-w-lg">
-      <video
-        className="w-full max-h-100 rounded-lg shadow-lg"
-        controls
-        muted
-      >
-        <source src="/Review.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-</SwiperSlide>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
+              <div className="w-full max-w-lg">
+                <video
+                  className="w-full max-h-100 rounded-lg shadow-lg"
+                  controls
+                  muted
+                >
+                  <source src="/Review.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </SwiperSlide>
 
           {/* Video Testimonial 2 */}
           <SwiperSlide>
-  <div
-    className="flex justify-center items-center h-full"
-    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
-  >
-    <div className="w-full max-w-lg">
-      <video
-        className="w-full max-h-100 rounded-lg shadow-lg"
-        controls
-        muted
-      >
-        <source src="/testimonial2.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
-</SwiperSlide>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
+              <div className="w-full max-w-lg">
+                <video
+                  className="w-full max-h-100 rounded-lg shadow-lg"
+                  controls
+                  muted
+                >
+                  <source src="/testimonial2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </SwiperSlide>
 
           {/* Text Testimonial 1 */}
           <SwiperSlide>
-            <div className="flex justify-center items-center h-full"
-                onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-                onMouseLeave={() => swiperRef.current?.autoplay?.start()}>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
               <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
-                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  "I met Sachin on a Facebook group about coaching. He offered 3 free coaching sessions. 
-                At that time I felt that was exactly what I needed. The great clarity of mind after 
-                the first session convinced me that I had to continue the sessions. Sachin challenged 
-                me with difficult questions and managed the sessions in a way that made every minute 
-                very effective. Thus, after three sessions, I have a clearer mind, and I am more aware 
-                of what I have to do regarding the weak points in my life. I feel empowered and more 
-                determined to be conscious of my everyday habits in order to reach my goals."
+                <p className="text-base md:text-md text-gray-700 leading-relaxed">
+                  "I met Sachin on a Facebook group about coaching. He offered 3
+                  free coaching sessions. At that time I felt that was exactly
+                  what I needed. The great clarity of mind after the first
+                  session convinced me that I had to continue the sessions.
+                  Sachin challenged me with difficult questions and managed the
+                  sessions in a way that made every minute very effective. Thus,
+                  after three sessions, I have a clearer mind, and I am more
+                  aware of what I have to do regarding the weak points in my
+                  life. I feel empowered and more determined to be conscious of
+                  my everyday habits in order to reach my goals."
                 </p>
                 <h3 className="mt-4 text-lg md:text-xl font-semibold text-[#105153]">
                   Ola Dayoub
@@ -105,23 +110,59 @@ const Testimonials = () => {
 
           {/* Text Testimonial 2 */}
           <SwiperSlide>
-            <div className="flex justify-center items-center h-full"
-                onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-                onMouseLeave={() => swiperRef.current?.autoplay?.start()}>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
               <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
-                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  "My experience with Sachin as a coach has been exceptional. He inspires trust quickly 
-                and is respectful from the start. His kindness comes through with every question and 
-                every question helped me dig deeper into my reality and heal what I needed to, to find 
-                my way and grow in my personal venture. I have been able to change my behaviors and 
-                thoughts in a short period of time, thanks to Sachin's guidance. I would recommend his 
-                services to anyone in need of guidance either with a specific purpose or seeking to find it. 
-                Thank you Sachin, I am very grateful to you, you've helped me so much to dig deep."
+                <p className="text-base md:text-md text-gray-700 leading-relaxed">
+                  "My experience with Sachin as a coach has been exceptional. He
+                  inspires trust quickly and is respectful from the start. His
+                  kindness comes through with every question and every question
+                  helped me dig deeper into my reality and heal what I needed
+                  to, to find my way and grow in my personal venture. I have
+                  been able to change my behaviors and thoughts in a short
+                  period of time, thanks to Sachin's guidance. I would recommend
+                  his services to anyone in need of guidance either with a
+                  specific purpose or seeking to find it. Thank you Sachin, I am
+                  very grateful to you, you've helped me so much to dig deep."
                 </p>
                 <h3 className="mt-4 text-lg md:text-xl font-semibold text-[#105153]">
                   Manuela Ramírez Rodríguez
                 </h3>
-                <p className="text-sm text-gray-500">Wellness Coach, Bogotá D.C., Colombia</p>
+                <p className="text-sm text-gray-500">
+                  Wellness Coach, Bogotá D.C., Colombia
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          {/* Text Testimonial 3 */}
+
+          <SwiperSlide>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
+              <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
+                <p className="text-base md:text-md text-gray-700 leading-relaxed">
+                  "Sachin empowered me by helping me see the strength I forgot I
+                  had. Through his grounded presence, deep spiritual insight,
+                  and powerful visualization exercises, I was able to reconnect
+                  with my inner child, release emotional pain I had carried for
+                  years, and begin trusting myself again. He didn’t just guide
+                  me — he held space for me to unfold, to cry, to breathe, and
+                  to rise. His coaching helped me shift from survival mode into
+                  a space of purpose, clarity, and self-love. I walked into our
+                  sessions feeling broken and walked out feeling whole. I will
+                  forever be grateful for the transformation he helped
+                  spark within me."
+                </p>
+                <h3 className="mt-4 text-lg md:text-xl font-semibold text-[#105153]">
+                  
+                </h3>
+                <p className="text-sm text-gray-500">San Francisco CA</p>
               </div>
             </div>
           </SwiperSlide>
@@ -132,6 +173,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-
-
-

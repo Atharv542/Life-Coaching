@@ -94,7 +94,7 @@ const BookingForm = () => {
 
           <button 
             type="submit"
-            className="w-full bg-white rounded-full cursor-pointer hover:bg-teal-500 hover:text-white text-teal-500 p-3 border-2 border-teal-500 font-medium hover:scale-105 transition"
+            className="w-full bg-white rounded-full cursor-pointer hover:bg-teal-600 hover:text-white text-teal-700 p-3 border-2 border-teal-500 font-medium hover:scale-105 transition"
           >
             Book Appointment
           </button>
