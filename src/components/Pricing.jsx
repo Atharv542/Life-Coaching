@@ -16,7 +16,7 @@ function Pricing() {
         {/* Personal Development Plan */}
         <div className="bg-white border-4 border-[#105153] rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col items-center">
           <h3 className="text-2xl font-semibold text-[#105153] mb-4">Personal Development</h3>
-          <ul className="text-sm text-gray-700 mb-6 space-y-2 mr-25">
+          <ul className="text-sm text-gray-700 mb-6 space-y-2 md:mr-25 -ml-24">
             <li>✔ SMART Goal Setting</li>
             <li>✔ Mindset Mastery</li>
             <li>✔ Habit Transformation</li>
@@ -45,7 +45,7 @@ function Pricing() {
           <ul className="text-sm text-gray-700 mb-6 space-y-2">
             <li>✔ Meditation & Breathwork Practices</li>
             <li>✔ Subconscious Mind Rewiring</li>
-            <li>✔ Body Awareness & Movement Practices</li>
+            <li>✔ Body Awareness & Movement <span className='md:ml-0 ml-6 '>Practices</span> </li>
           </ul>
           <a href="/mindful-package" className="mt-auto bg-[#105153] text-white py-2 px-6 rounded-full hover:scale-110 transition-all">
             Know More
