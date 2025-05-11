@@ -160,7 +160,7 @@ const Testimonials = () => {
                   spark within me."
                 </p>
                 <h3 className="mt-4 text-lg md:text-xl font-semibold text-[#105153]">
-                  
+                  Salma Nisha
                 </h3>
                 <p className="text-sm text-gray-500">San Francisco CA</p>
               </div>
