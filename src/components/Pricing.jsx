@@ -16,7 +16,7 @@ function Pricing() {
         {/* Personal Development Plan */}
         <div className="bg-white border-4 border-[#105153] rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col items-center">
           <h3 className="text-2xl font-semibold text-[#105153] mb-4">Personal Development</h3>
-          <ul className="text-sm text-gray-700 mb-6 space-y-2 md:mr-25 -ml-24">
+          <ul className="text-sm text-gray-700 mb-6 space-y-2  -ml-24">
             <li>✔ SMART Goal Setting</li>
             <li>✔ Mindset Mastery</li>
             <li>✔ Habit Transformation</li>
