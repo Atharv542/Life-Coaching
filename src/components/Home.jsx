@@ -38,7 +38,7 @@ function Home() {
           transition={{ duration: 1 }}
         >
           <img 
-            src='Background.jpeg'
+            src='Home3.png'
             alt="Life Coaching" 
             className="rounded-lg shadow-2xl w-full h-48 md:h-auto lg:h-auto xl:h-auto sm:max-w-40 md:max-w-md lg:max-w-lg xl:max-w-xl"
           />
@@ -60,7 +60,7 @@ function Home() {
       
 
           <p className="text-sm text-white/80 sm:text-base md:text-lg">
-         Maybe you’re putting things off, your dream job, that tough conversation, or even quality time with your family because it all feels too overwhelming. What if the clarity you’re searching for isn’t out there, but already within you? Through mindful growth and simple shifts, you can move from analysis paralysis to purposeful action. Let’s start your journey together.
+         Maybe you’re putting things off, your dream job, that tough conversation, or even quality time with your family because it all feels too overwhelming.<br/> <span className="font-bold italic text-gray-300 text-[14px] mt-5 ">WHAT IF THE CLARITY YOU'RE SEARCHING FOR ISN'T OUT THERE, BUT ALREADY WITHIN YOU?</span> <br/> Through mindful growth and simple shifts, you can move from analysis paralysis to purposeful action. Let’s start your journey together.
           </p>
 
           {/* ✅ Animated Quote */}

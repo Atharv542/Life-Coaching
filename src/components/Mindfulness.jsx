@@ -22,10 +22,10 @@ const MindfulnessCoaching = () => {
           You’ll learn to slow down, be fully present, and navigate life with calm and clarity. I’ll guide you through simple, powerful mindfulness practices that help reduce stress, sharpen your focus, and improve decision-making. Beyond just managing the chaos, together we’ll uncover deeper self-awareness and unlock a sense of inner peace and purpose both at work and at home.
           </p>
           <ul className="text-teal-700 list-disc mx-5">
-            <li className="font-bold">Conscious Mind <span className="text-gray-700 font-semibold">– You’ll think with clarity—I’ll help you make intentional choices.</span> </li>
+            <li className="font-bold">Conscious Mind <span className="text-gray-700 font-semibold">– You’ll think with clarity. I’ll help you make intentional choices.</span> </li>
             <li className="font-bold">Subconscious Mind <span className="text-gray-700 font-semibold">– You’ll break old patterns—I’ll guide you to rewire your mindset.</span></li>
-            <li className="font-bold">Body <span className="text-gray-700 font-semibold">- You’ll tune into your body—I’ll help you act with purpose.</span></li>
-            <li className="font-bold">Soul <span className="text-gray-700 font-semibold">– You’ll connect with your soul—I’ll support you in living your truth.</span></li>
+            <li className="font-bold">Body <span className="text-gray-700 font-semibold">- You’ll tune into your body. I’ll help you act with purpose.</span></li>
+            <li className="font-bold">Soul <span className="text-gray-700 font-semibold">– You’ll connect with your soul. I’ll support you in living your truth.</span></li>
           </ul>
           <motion.p className="text-gray-600 italic"
             initial={{ opacity: 0 }}
@@ -60,10 +60,10 @@ const MindfulnessCoaching = () => {
         {/* Meditation Practices */}
         <div className="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200">
           <img src="/M1.jpg" alt="Breathing Exercise" className="w-60 h-60 mx-auto rounded-full object-cover" />
-          <h3 className="text-xl font-semibold mt-4">Meditation Practices</h3>
+          <h3 className="text-xl font-semibold mt-4">Build Deep Meditation</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-gray-600">
-          Find your calm, heal from within, and gain clarity, meditation helps you unlock peace and purpose, one breath at a time.
+          I’ll guide you to find your calm, heal from within, and gain clarity because with meditation, you unlock peace and purpose, one breath at a time.
 
           </p>
         </div>
@@ -71,7 +71,7 @@ const MindfulnessCoaching = () => {
         {/* Spiritual Connection */}
         <div className="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200">
           <img src="/C1.jpg" alt="Meditation" className="w-60 h-60 mx-auto rounded-full object-fill" />
-          <h3 className="text-xl font-semibold mt-4">Spiritual Connection & Inner Peace</h3>
+          <h3 className="text-xl font-semibold mt-4">Achieve stillness. Connect within</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-gray-600">
           You’ll discover deeper peace and purpose. I’ll guide you through mindful reflection and gratitude to reconnect with your true self and feel truly aligned.
@@ -81,7 +81,7 @@ const MindfulnessCoaching = () => {
         {/* Emotional Healing */}
         <div className="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200">
           <img src="/m3.jpg" alt="Mindful Activities" className="w-60 h-60 mx-auto rounded-full object-cover" />
-          <h3 className="text-xl font-semibold mt-4">Emotional Healing & Energy Clearing</h3>
+          <h3 className="text-xl font-semibold mt-4">Explore energy. Heal deeply</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-gray-600">
           You’ll release what’s holding you back. I’ll help you clear emotional blocks and limiting beliefs so you can heal, grow, and thrive.

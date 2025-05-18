@@ -37,10 +37,10 @@ const BookingForm = () => {
 
       emailjs
         .sendForm(
-          "service_m2mqngm",
-          "template_inmmn0l",
+          "service_gt2m8ga",
+          "template_6wjpyat",
           formRef.current,
-          "akzRyfz66xpuRZCnF"
+          "9VVB2mfBIGm2-ol8-"
         )
         .then(() => {
           console.log("Confirmation email sent");

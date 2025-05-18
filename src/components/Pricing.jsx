@@ -16,10 +16,10 @@ function Pricing() {
         {/* Personal Development Plan */}
         <div className="bg-white border-4 border-[#105153] rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col items-center">
           <h3 className="text-2xl font-semibold text-[#105153] mb-4">Personal Development</h3>
-          <ul className="text-sm text-gray-700 mb-6 space-y-2  -ml-24">
-            <li>✔ SMART Goal Setting</li>
-            <li>✔ Mindset Mastery</li>
-            <li>✔ Habit Transformation</li>
+          <ul className="text-sm text-gray-700 mb-6 space-y-2  ">
+            <li>✅ Momentum Through Clear Goals</li>
+            <li>✅ Confidence with a Resilient Mindset</li>
+            <li>✅ Inner Balance via Lasting Habits</li>
           </ul>
           <a href="/personal-package" className="mt-auto bg-[#105153] text-white py-2 px-6 rounded-full hover:scale-110 transition-all">
             Know More
@@ -30,9 +30,9 @@ function Pricing() {
         <div className="bg-white border-4 border-[#105153] rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 p-8 flex flex-col items-center ">
           <h3 className="text-2xl -ml-16 md:ml-0 font-semibold text-[#105153] mb-4">Career Coaching</h3>
           <ul className="text-sm text-gray-700 mb-6 space-y-2 ml-1 md:ml-12">
-            <li>✔ Personal Brand & Strengths</li>
-            <li>✔ Confident Communication Mastery</li>
-            <li>✔ Reflection & Empowerment</li>
+            <li>✅ Personal Brand & Strengths</li>
+            <li>✅ Confident Communication Mastery</li>
+            <li>✅ Reflection & Empowerment</li>
           </ul>
           <a href="/career-package" className="mt-auto bg-[#105153] hover:scale-110 text-white py-2 px-6 rounded-full transition-all">
             Know More
@@ -43,9 +43,9 @@ function Pricing() {
         <div className="bg-white border-4 border-[#105153] rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col items-center">
           <h3 className="text-2xl font-semibold text-[#105153] mb-4">Mindfulness & Spiritual</h3>
           <ul className="text-sm text-gray-700 mb-6 space-y-2">
-            <li>✔ Meditation & Breathwork Practices</li>
-            <li>✔ Subconscious Mind Rewiring</li>
-            <li>✔ Body Awareness & Movement <span className='md:ml-0 ml-6 '>Practices</span> </li>
+            <li>✅ Build Deep Meditation</li>
+            <li>✅ Achieve Stillness. Connect Within</li>
+            <li>✅ Explore Energy. Heal Deeply</li>
           </ul>
           <a href="/mindful-package" className="mt-auto bg-[#105153] text-white py-2 px-6 rounded-full hover:scale-110 transition-all">
             Know More

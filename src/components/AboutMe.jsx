@@ -44,7 +44,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
        <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
         {/* Image Section */}
         <img
-          src='aboutF.jpg'
+          src='Background.jpeg'
           alt="Professional Coach"
           className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[350px] h-[500px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start object-cover"
         />
