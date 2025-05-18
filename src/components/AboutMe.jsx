@@ -46,7 +46,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
         <img
           src='Background.jpeg'
           alt="Professional Coach"
-          className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[350px] h-[500px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start object-cover"
+          className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[190px] h-[290px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start object-cover"
         />
 
         {/* Content Section */}
