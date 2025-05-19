@@ -26,7 +26,7 @@ const Testimonials = () => {
         <h2 className="text-2xl md:text-4xl font-bold text-[#105153] mb-6 md:mb-8">
           Success Stories
         </h2>
-
+        
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
@@ -74,6 +74,25 @@ const Testimonials = () => {
                   muted
                 >
                   <source src="/testimonial2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </SwiperSlide>
+            {/* Video Testimonial 3 */}
+            <SwiperSlide>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
+              <div className="w-full max-w-lg">
+                <video
+                  className="w-full max-h-100 rounded-lg shadow-lg"
+                  controls
+                  muted
+                >
+                  <source src="/video3.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -137,35 +156,9 @@ const Testimonials = () => {
               </div>
             </div>
           </SwiperSlide>
-          {/* Text Testimonial 3 */}
+        
 
-          <SwiperSlide>
-            <div
-              className="flex justify-center items-center h-full"
-              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
-            >
-              <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
-                <p className="text-base md:text-md text-gray-700 leading-relaxed">
-                  "Sachin empowered me by helping me see the strength I forgot I
-                  had. Through his grounded presence, deep spiritual insight,
-                  and powerful visualization exercises, I was able to reconnect
-                  with my inner child, release emotional pain I had carried for
-                  years, and begin trusting myself again. He didn’t just guide
-                  me — he held space for me to unfold, to cry, to breathe, and
-                  to rise. His coaching helped me shift from survival mode into
-                  a space of purpose, clarity, and self-love. I walked into our
-                  sessions feeling broken and walked out feeling whole. I will
-                  forever be grateful for the transformation he helped
-                  spark within me."
-                </p>
-                <h3 className="mt-4 text-lg md:text-xl font-semibold text-[#105153]">
-                  Salma Nisha
-                </h3>
-                <p className="text-sm text-gray-500">San Francisco CA</p>
-              </div>
-            </div>
-          </SwiperSlide>
+       
         </Swiper>
       </div>
     </section>

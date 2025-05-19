@@ -7,17 +7,17 @@ const strategies = [
   {
     title: "Developing a Strong Personal Brand",
     description: "For professionals ready to stand out with authenticity. I'll help you uncover your strengths, define your values, and build a personal brand that feels true to you and resonates with the world.",
-    image: "new1.jpg",
+    image: "newest1.jpg",
   },
   {
     title: "Mastering Communication Skills ",
     description: " For those who want to connect with confidence. I’ll help you master communication by listening deeply, speaking clearly, and building authentic relationships that leave a lasting impact.",
-    image: "new2.jpg",
+    image: "newest2.jpg",
   },
   {
     title: "Building Emotional Intelligence ",
     description: "For anyone seeking deeper connections and inner strength. I’ll help you build emotional intelligence through self-awareness, empathy, and emotional balance, so you can navigate life’s challenges with confidence and compassion.",
-    image: "new3.jpg",
+    image: "newest3.jpg",
   },
 ];
 
@@ -94,7 +94,7 @@ const CareerCoaching = () => {
             animate={animateStrategies ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: i * 0.2 }}
           >
-            <img src={strategy.image} alt={strategy.title} className="w-full rounded-xl h-[400px] mx-auto" />
+            <img src={strategy.image} alt={strategy.title} className="w-full rounded-xl h-auto mx-auto" />
             <h3 className="mt-5 text-xl  font-semibold">{strategy.title}</h3>
             <p className="text-gray-600 text-md px-6 py-2 mt-2">{strategy.description}</p>
           </motion.div>
