@@ -13,17 +13,17 @@ const strategies = [
   {
     title: "Goal Setting",
     description: "I will help you turn clarity into consistent progress with Life Momentum.",
-    img: "/main3.jpg",
+    img: "/PDX-1.jpg",
   },
   {
     title: "Mindset & Habits",
     description: "I will help you turn fear into fuel and build unshakable self-belief.",
-    img: "/main4.jpg",
+    img: "/PDX-2.jpg",
   },
   {
     title: "Self-Reflection",
     description: "I will help you turn fear into fuel and build unshakable self-belief.",
-    img: "main5.jpg",
+    img: "PDX-3.jpg",
   },
 ];
 
@@ -102,9 +102,9 @@ const PersonalDevelopment = () => {
               transition={{ duration: 0.6, delay: i * 0.2 }}
               viewport={{ once: true }}
             >
-              <img src={strategy.img} alt={strategy.title} className="w-full h-auto rounded-xl mx-auto " />
+              <img src={strategy.img} alt={strategy.title} className="w-full h-auto  mx-auto " />
               {/*<h3 className="text-xl px-6 font-semibold text-gray-800">{strategy.title}</h3>*/}
-              <p className="text-gray-600 text-lg px-6">{strategy.description}</p>
+              <p className="text-gray-600 text-center font-semibold text-lg px-6 py-3">{strategy.description}</p>
             </motion.div>
           ))}
         </div>
