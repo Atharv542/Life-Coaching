@@ -104,7 +104,7 @@ const Testimonials = () => {
               onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
               onMouseLeave={() => swiperRef.current?.autoplay?.start()}
             >
-              <div className="w-full mt-15 max-w-lg">
+              <div className="w-full  md:mt-15 max-w-lg">
                 <video
                   className="w-full max-h-100 rounded-lg shadow-lg"
                   controls
