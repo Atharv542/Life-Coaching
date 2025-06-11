@@ -51,7 +51,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
 
         {/* Content Section */}
         <div className="animate-slide-in">
-          <h2 className="text-4xl font-bold text-[#105153] mb-6">About Me</h2>
+          <h2 className="text-5xl font-bold text-[#105153] mb-6">About Me</h2>
 
           <p ref={paragraphRef} className="text-black mb-4 whitespace-pre-line">
   {isExpanded ? (

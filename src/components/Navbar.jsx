@@ -29,7 +29,7 @@ const Navbar = ({ scrollToSection }) => {
       {/* ✅ Logo Section */}
       <div className="flex items-center space-x-3">
         <img src="/Logo2.svg" className="h-10" alt="Logo" />
-        <div className="text-white text-lg md:text-2xl font-semibold">
+        <div className="text-white text-2xl md:text-2xl font-semibold">
           Self-Discovery & Mindfulness
         </div>
       </div>
@@ -40,7 +40,7 @@ const Navbar = ({ scrollToSection }) => {
           <li key={index}>
             <button
               onClick={() => handleNavigation(item.toLowerCase().replace(" ", ""))}
-              className="text-white hover:text-teal-300 cursor-pointer text-lg font-semibold transition duration-300"
+              className="text-white hover:text-teal-300 cursor-pointer text-2xl font-semibold transition duration-300"
             >
               {item}
             </button>

@@ -12,17 +12,17 @@ const images = [
 const strategies = [
   {
     title: "Goal Setting",
-    description: "I will help you turn clarity into consistent progress with Life Momentum.",
+    description: "I will guide you to turn clarity into consistent progress with Life Momentum.",
     img: "/PDX-1.jpg",
   },
   {
     title: "Mindset & Habits",
-    description: "I will help you turn fear into fuel and build unshakable self-belief.",
+    description: "I will guide you to turn fear into fuel and build unshakable self-belief.",
     img: "/PDX-2.jpg",
   },
   {
     title: "Self-Reflection",
-    description: "I will help you turn fear into fuel and build unshakable self-belief.",
+    description: "I will guide you to unlock your power and elevate your well-being.",
     img: "PDX-3.jpg",
   },
 ];
@@ -56,13 +56,13 @@ const PersonalDevelopment = () => {
       <div className="grid md:grid-cols-2 gap-8 items-center mt-5">
         <div className="space-y-6 mt-12">
           <h2 className="text-4xl  font-bold text-teal-700">Personal Development</h2>
-          <p className="text-gray-700 leading-relaxed">
-          As your personal development coach, I help you unlock your full potential and become the best version of yourself. Together, we’ll clarify your goals, shift limiting beliefs, and build habits that lead to real, lasting growth. This is about more than success—it’s about living with purpose, confidence, and fulfilment. Social Growth – How you communicate & focus on effective listening.
+          <p className="md:text-lg text-gray-700 leading-relaxed">
+          As your personal development coach, I help you unlock your full potential and become the best version of yourself. Together, we’ll clarify your goals, shift limiting beliefs, and build habits that lead to real, lasting growth. This is about more than success—it’s about living with purpose, confidence, and fulfilment. 
           </p>
-          <ul className="text-gray-600 space-y-2">
-            <li className="font-semibold">✅ Spiritual – You’ll connect within. I’ll guide you. </li>
-            <li className="font-semibold">✅ Emotional – You’ll feel clearly. I’ll support you.</li>
-            <li className="font-semibold">✅ Physical – You’ll move with purpose. I’ll empower you.</li>
+          <ul className="md:text-lg text-gray-600 space-y-2">
+            <li className="font-semibold">✅ Spiritual – You’ll connect with guidance. </li>
+            <li className="font-semibold">✅ Emotional – You’ll feel supported with guidance.</li>
+            <li className="font-semibold">✅ Physical – You’ll be empowered to move with purpose.</li>
           </ul>
           <motion.p className="text-gray-600 italic"
             initial={{ opacity: 0 }}

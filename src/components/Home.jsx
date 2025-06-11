@@ -52,15 +52,15 @@ function Home() {
           transition={{ duration: 1 }}
         >
           {/* ✅ Adjust font sizes dynamically */}
-          <h1 className="text-2xl sm:text-xl md:text-4xl text-white text-bold italic">
+          <h1 className="text-2xl sm:text-xl md:text-[32px] text-white text-bold italic">
           "Do you find yourself stuck in overthinking, unsure what step to take next?" {" "}
             
           </h1>
 
       
 
-          <p className="text-sm text-white/80 sm:text-base md:text-lg">
-         Maybe you’re putting things off, your dream job, that tough conversation, or even quality time with your family because it all feels too overwhelming.<br/> <span className="font-bold italic text-gray-300 text-[14px] mt-5 ">WHAT IF THE CLARITY YOU'RE SEARCHING FOR ISN'T OUT THERE, BUT ALREADY WITHIN YOU?</span> <br/> Through mindful growth and simple shifts, you can move from analysis paralysis to purposeful action. Let’s start your journey together.
+          <p className="text-sm text-white/80 sm:text-base md:text-xl">
+         Maybe you’re putting things off, your dream job, that tough conversation, or even quality time with your family because it all feels too overwhelming. <br/> <span className="font-bold italic text-gray-300 text-[14px]  ">WHAT IF THE CLARITY YOU'RE SEARCHING FOR ISN'T OUT THERE, BUT ALREADY WITHIN YOU?</span> <br/>  Through mindful growth and simple shifts, you can move from analysis paralysis to purposeful action.<br/><span>Let’s start your journey together.</span> 
           </p>
 
           {/* ✅ Animated Quote */}

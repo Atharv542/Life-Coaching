@@ -6,17 +6,17 @@ import { useNavigate } from "react-router-dom";
 const strategies = [
   {
     title: "Developing a Strong Personal Brand",
-    description: "For professionals ready to stand out with authenticity. I'll help you uncover your strengths, define your values, and build a personal brand that feels true to you and resonates with the world.",
+    description: "Designed for professionals ready to stand out with authenticity. You’ll uncover your strengths, define your values, and build a personal brand that feels true to you and resonates with the world.",
     image: "newest1.jpg",
   },
   {
     title: "Mastering Communication Skills ",
-    description: " For those who want to connect with confidence. I’ll help you master communication by listening deeply, speaking clearly, and building authentic relationships that leave a lasting impact.",
+    description: "Designed for those who want to connect with confidence. You’ll master communication by listening deeply, speaking clearly, and building authentic relationships that leave a lasting impact.",
     image: "newest2.jpg",
   },
   {
     title: "Building Emotional Intelligence ",
-    description: "For anyone seeking deeper connections and inner strength. I’ll help you build emotional intelligence through self-awareness, empathy, and emotional balance, so you can navigate life’s challenges with confidence and compassion.",
+    description: "Designed for anyone seeking deeper connections and inner strength. You’ll build emotional intelligence through self-awareness, empathy, and emotional balance, so you can navigate life’s challenges with confidence and compassion.",
     image: "newest3.jpg",
   },
 ];
@@ -53,11 +53,11 @@ const CareerCoaching = () => {
       <div className="mt-8 flex flex-col md:flex-row items-center gap-8 ">
         <div className="md:w-1/2 space-y-4 lg:-mt-24">
           <h1 className="text-4xl font-bold mt-8 md:mt-5 text-teal-700">Career & Executive Presence Coaching</h1>
-          <p className="text-gray-600">
-          Whether you're feeling unfulfilled at work, uncertain about your next step, or struggling with self-doubt, I’ll help you gain clarity, uncover your strengths, and create a step-by-step roadmap to a career that excites and empowers you. Together, we’ll silence the overthinking, overcome procrastination, and take confident action toward the career you truly deserve. 
+          <p className="md:text-lg text-gray-600">
+          Whether you're feeling unfulfilled at work, uncertain about your next step, or struggling with self-doubt, I’ll guide you to gain clarity, uncover your strengths, and create a step-by-step roadmap to a career that excites and empowers you. Together, we’ll silence the overthinking, overcome procrastination, and take confident action toward the career you truly deserve. 
           </p>
           
-          <ul className="text-teal-700 list-disc mx-5">
+          <ul className="md:text-lg text-teal-700 list-disc mx-5">
             <li className="font-bold">Clarity & Vision</li>
             <li className="font-bold">Leadership & Professional Development</li>
             <li className="font-bold">Actionable Strategies & Goal Achievements</li>
@@ -95,8 +95,8 @@ const CareerCoaching = () => {
             transition={{ duration: 0.6, delay: i * 0.2 }}
           >
             <img src={strategy.image} alt={strategy.title} className="w-full rounded-xl h-auto mx-auto" />
-            <h3 className="mt-5 text-xl  font-semibold">{strategy.title}</h3>
-            <p className="text-gray-600 text-md px-6 py-2 mt-2">{strategy.description}</p>
+            <h3 className="mt-5 text-2xl px-1 font-semibold">{strategy.title}</h3>
+            <p className="text-gray-600 text-lg px-6 py-2 mt-2">{strategy.description}</p>
           </motion.div>
         ))}
       </div>
