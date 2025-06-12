@@ -69,7 +69,7 @@ const PersonalPackage = () => {
         <div className="space-y-6 text-base sm:text-lg text-gray-700">
           <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
             <h3 className="font-bold text-lg sm:text-xl text-teal-800">Empower Package – Standard</h3>
-            <p>$750 (one-time) or 2 payments of $375</p>
+            <p>$750 (one-time) or Customised payment options are available.</p>
             <p className="italic text-sm text-gray-500">
               Perfect for individuals ready to commit to growth with full support.
             </p>
@@ -78,7 +78,7 @@ const PersonalPackage = () => {
             <h3 className="font-bold text-lg sm:text-xl text-teal-800">Empower Package – Premium</h3>
             <p>$850</p>
             <p>
-              Includes everything above + 1 Bonus Session + Personalized Growth Journal.
+              Includes everything above + Customised personalised growth journal.
             </p>
             <p className="italic text-sm text-gray-500">
               Ideal for those who want extra support beyond the 6 weeks.

@@ -81,7 +81,7 @@ const MindfulnessPackage = () => {
         <div className="space-y-6 text-base sm:text-lg text-gray-700">
           <div className="p-4 rounded-xl shadow-sm hover:shadow-md transition">
             <h3 className="font-bold text-lg sm:text-xl text-teal-900">Awaken Your Soul – Standard Package</h3>
-            <p>$900 (or 2 payments of $450)</p>
+            <p>$900 (onetime) or Customised payment options are available.</p>
             <p className="italic text-sm text-gray-600">
               Includes full 6-week journey, tools, journal prompts, and voice support.
             </p>
@@ -94,7 +94,7 @@ const MindfulnessPackage = () => {
               <ul className=" pl-6 mt-2 space-y-1">
                 <li>🔹 1 Bonus Private Healing Session (30 mins)</li>
                 <li>🔹 Personalized Meditation Recording</li>
-                <li>🔹 Lifetime access to all guided audio practices</li>
+                <li>🔹 Short Personalised Meditation</li>
                 <li>🔹 Priority support (Mon–Fri)</li>
               </ul>
             </p>

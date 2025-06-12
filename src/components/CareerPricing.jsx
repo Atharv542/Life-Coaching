@@ -83,7 +83,7 @@ const CareerPackage = () => {
         <div className="space-y-6 text-base sm:text-lg text-gray-700">
           <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
             <h3 className="font-bold text-lg sm:text-xl text-teal-800">Stuck to Soaring – Standard Package</h3>
-            <p>$1200 (or 2 payments of $600)</p>
+            <p>$1200(onetime) or Customised payment options are available. </p>
             <p className="italic text-sm text-gray-600">
               Includes full 8-week experience, customized roadmap, and resources.
             </p>
