@@ -5,7 +5,7 @@ const MindfulnessCoaching = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-10 py-10">
          <IoArrowBackCircleOutline 
     className="text-5xl text-teal-700 cursor-pointer -mx-3 mt-14 hidden md:block " 
     onClick={() => navigate(-1)} 
@@ -63,7 +63,7 @@ const MindfulnessCoaching = () => {
           <h3 className="text-2xl font-semibold mt-4">Build Deep Meditation</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-lg text-gray-600">
-          I’ll guide you to find your calm, heal from within, and gain clarity because with meditation, you unlock peace and purpose, one breath at a time.
+          You’ll be guided to find your calm, heal from within, and gain clarity because with meditation, you unlock peace and purpose, one breath at a time.
 
           </p>
         </div>
@@ -84,7 +84,7 @@ const MindfulnessCoaching = () => {
           <h3 className="text-2xl font-semibold mt-4">Explore Energy. Heal Deeply</h3>
           <hr className="my-2 border-2 border-teal-500 w-16 mx-auto" />
           <p className="text-lg text-gray-600">
-          You’ll release what’s holding you back. I’ll help you clear emotional blocks and limiting beliefs so you can heal, grow, and thrive.
+          You’ll release what’s holding you back. With guidance you’ll clear emotional blocks and limiting beliefs so you can heal, grow, and thrive.
           </p>
         </div>
       </div>

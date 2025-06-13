@@ -42,7 +42,7 @@ const CareerCoaching = () => {
     setAnimateStrategies(true);
   }, []);
   return (
-    <div className="container mx-auto px-6 py-10">
+    <div className="container mx-auto px-10 py-10">
       
       <IoArrowBackCircleOutline 
     className="text-5xl text-teal-700 cursor-pointer -mx-3 mt-14 hidden md:block " 

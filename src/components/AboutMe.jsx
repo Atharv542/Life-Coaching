@@ -43,11 +43,29 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
     <div className="mx-auto  ">
        <div className="grid grid-cols-1 md:grid-cols-2 px-6 sm:px-16 lg:px-28 bg-[#e7f6f8] gap-12 items-center py-12 sm:py-16">
         {/* Image Section */}
-        <img
-          src='Background.jpeg'
-          alt="Professional Coach"
-          className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[190px] h-[290px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start object-cover"
-        />
+          <div>
+          <img
+            src="Background.jpeg"
+            alt="Professional Coach"
+            className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[190px] h-[290px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start object-cover"
+          />
+
+          {/* Badge Images - shown only when expanded */}
+          {isExpanded && (
+            <div className="flex flex-wrap justify-center gap-20 mt-20 animate-fade-in transition-opacity duration-500 ease-in-out">
+              <img
+                src="Badge1.jpg"
+                alt="Certified Coach Badge"
+                className="h-32 sm:h-28 md:h-48 w-auto object-contain shadow-md rounded-md hover:scale-105 transition-transform duration-300"
+              />
+              <img
+                src="Badge2.jpg"
+                alt="Leadership Badge"
+                className="h-32 sm:h-28 md:h-48 w-auto object-contain shadow-md rounded-md hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          )}
+        </div>
 
         {/* Content Section */}
         <div className="animate-slide-in">
@@ -56,6 +74,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
           <p ref={paragraphRef} className="text-black mb-4 whitespace-pre-line">
   {isExpanded ? (
     <>
+       
       <span className="italic font-bold">"You don’t have to have it all figured out to take the first step."" </span><br /><br />
       Hi, I’m <strong>Sachin Kaintura</strong> and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game one of <strong> purpose, transformation, and inner growth</strong>.<br /><br />
       I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of self-discovery. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you. That used to be me too.<br /><br />
