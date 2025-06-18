@@ -31,7 +31,7 @@ const Testimonials = () => {
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
-           navigation={isMobile ? false : true} 
+          navigation={isMobile ? false : true}
           pagination={{ clickable: !isMobile }} // Disable pagination dots on mobile
           loop={true}
           autoplay={isMobile ? false : { delay: 2000 }} // Disable autoplay on mobile
@@ -125,7 +125,6 @@ const Testimonials = () => {
               onMouseLeave={() => swiperRef.current?.autoplay?.start()}
             >
               <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
-
                 {/* User Photo */}
                 <div className="flex flex-col items-center justify-center  gap-2 mb-1">
                   <img
@@ -137,7 +136,9 @@ const Testimonials = () => {
                     <h3 className="text-lg md:text-xl font-semibold text-[#105153]">
                       Ola Dayoub
                     </h3>
-                    <p className="text-sm text-gray-500">Prague, Czech Republic</p>
+                    <p className="text-sm text-gray-500">
+                      Prague, Czech Republic
+                    </p>
                   </div>
                 </div>
 
@@ -158,7 +159,6 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
 
-
           {/* Text Testimonial 2 */}
           <SwiperSlide>
             <div
@@ -167,7 +167,6 @@ const Testimonials = () => {
               onMouseLeave={() => swiperRef.current?.autoplay?.start()}
             >
               <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
-
                 {/* User Photo */}
                 <div className="flex flex-col items-center justify-center  gap-2 mb-1">
                   <img
@@ -177,9 +176,12 @@ const Testimonials = () => {
                   />
                   <div>
                     <h3 className="text-lg md:text-xl font-semibold text-[#105153]">
-                     Manuela Ramírez Rodríguez
+                      Manuela Ramírez Rodríguez
                     </h3>
-                    <p className="text-sm text-gray-500"> Wellness Coach, Bogotá D.C., Colombia</p>
+                    <p className="text-sm text-gray-500">
+                      {" "}
+                      Wellness Coach, Bogotá D.C., Colombia
+                    </p>
                   </div>
                 </div>
 
@@ -195,14 +197,57 @@ const Testimonials = () => {
                   his services to anyone in need of guidance either with a
                   specific purpose or seeking to find it. Thank you Sachin, I am
                   very grateful to you, you've helped me so much to dig deep."
-
                 </p>
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
+              <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
+                {/* User Photo */}
+                <div className="flex flex-col items-center justify-center  gap-2 mb-1">
+                  <img
+                    src="/young.jpg" // Update with actual image path
+                    alt="Ola Dayoub"
+                    className="w-18 h-18 rounded-full object-cover"
+                  />
+                  <div>
+                    <h3 className="text-lg md:text-xl font-semibold text-[#105153]">
+                       Lindsay Young
+                    </h3>
+                    <p className="text-sm text-gray-500">
+                      {" "}
+                      Pennsylvania, United States
+                    </p>
+                  </div>
+                </div>
 
-
-
+                {/* Testimonial Text */}
+                <p className="text-base md:text-md text-gray-700 leading-relaxed">
+                  "I have nothing but rave reviews for this gentleman and am so
+                  very grateful and blessed to have had the ability to interact
+                  with him! I became acquainted with Sachin Kaintura via the
+                  JCSC program. As he took me on as a coachee, the time spent in
+                  sessions with him, he not only maintained but also continued
+                  to unravel the beautiful intention and compassion that he
+                  possesses in aiding me to look within. Sachin has this
+                  patience that exudes peacefully in conversation. I must admit
+                  I had a fear of 'bearing it all' to a stranger. But Sachin
+                  acquires this understated gentleness which is displayed
+                  through his interactions and speech. It was a seamless
+                  transition into working with him as well as looking forward to
+                  our time. It wasn't until working with him and receiving
+                  feedback that I genuinely believed/saw that I was making
+                  worthy progress and able to do so. I would work with him again
+                  and again and look forward to possible future endeavors!"
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </section>
