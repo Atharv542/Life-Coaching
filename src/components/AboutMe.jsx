@@ -86,7 +86,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
       <strong className="italic">The Turning Point: Awakening Purpose</strong><br />
       Despite spending over two decades in hospitality, something inside me always felt… incomplete. I was doing well, but I wasn’t truly fulfilled.<br /><br />
       In 2019, everything changed when I was introduced to a network marketing company that opened the door to <strong>mindfulness and personal development</strong>. That was the spark. That’s when I started to truly understand what had been missing all along me i.e. <strong>My purpose.</strong><br /><br />
-      I began to shed layers of <strong>stress, anxiety, limiting beliefs, and imposter syndrome</strong> and in their place, I found a new version of myself: confident, clear, and connected to my deeper calling. Looking back, I realize the seeds were planted long ago. In fact, in 2004, during a hospitality course, I was introduced to goal setting and self-work. I just wasn’t ready to water those seeds until now.
+      I began to shed layers of stress, anxiety, overthinking, procrastination, limiting beliefs, and imposter syndrome. In their place, I discovered a new version of myself -confident, clear, and deeply connected to my purpose. Looking back, I see that the seeds of this transformation were planted long ago. In fact, back in 2004, during a hospitality course, I was introduced to goal setting and personal growth. I just wasn’t ready to nurture those seeds until now, when clarity finally took root.
     </>
   ) : (
     <>
