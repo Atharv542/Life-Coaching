@@ -267,6 +267,39 @@ const Testimonials = () => {
               </div>
             </div>
           </SwiperSlide>
+          {/* Text Testimonial 4 */}
+          <SwiperSlide>
+            <div
+              className="flex justify-center items-center h-full"
+              onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
+              onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+            >
+              <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg">
+                {/* User Photo */}
+                <div className="flex flex-col items-center justify-center  gap-2 mb-1">
+                  <img
+                    src="/nopp.jpg" // Update with actual image path
+                    alt="Ola Dayoub"
+                    className="w-18 h-18 rounded-full object-cover"
+                  />
+                  <div>
+                    <h3 className="text-lg md:text-xl font-semibold text-[#105153]">
+                      Kha Nguyen
+                    </h3>
+                    <p className="text-sm text-gray-500">
+                      {" "}
+                       Los Angeles, CA
+                    </p>
+                  </div>
+                </div>
+
+                {/* Testimonial Text */}
+                <p className="text-base md:text-md text-gray-700 leading-relaxed">
+                  "After working with Sachin, I was able to clearly articulate a vision for myself and greatly improved personal and professional relationships.  Sachin’s kindness, patience and mindful questions allowed me to feel safe and enabled me to delve deeper into myself.  I am more confident and found greater balance in life today as a result of Sachin’s coaching."
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </section>

@@ -25,19 +25,6 @@ const AboutMe = () => {
     }, 100);*/
   };
 
-  const fullText = `You don’t have to have it all figured out to take the first step.
-Hi, I’m Sachin Kaintura and while my name might remind you of a famous Indian cricketer, trust me, I’ve been playing a different kind of game—one of purpose, transformation, and inner growth.
-I’m a proud husband, a devoted father to a wonderful daughter and a charming son, and someone who has walked the long, winding road of self-discovery. And if you’ve ever felt stuck, overwhelmed, or like there’s something more waiting for you—you’re not alone. That used to be me too.
-Where It All Began: The Foundation Years
-My journey started in the vibrant city of Mumbai, where I studied hospitality and began my career in the service industry. Like many in India’s middle class, I dreamed of giving my family a better life. That dream led me to take a leap of faith in 2009, when I moved to New Zealand.
-As an immigrant, I had to start from scratch. I embraced long hours, financial sacrifices, and the emotional toll of building a life far from home. But through it all, I held onto the values of Honesty, Respect, empathy, and authenticity—qualities that would become the backbone of who I am today.
-The Turning Point: Awakening Purpose
-Despite spending over two decades in hospitality, something inside me always felt… incomplete. I was doing well, but I wasn’t truly fulfilled.
-In 2019, everything changed when I was introduced to a network marketing company that opened the door to mindfulness and personal development. That was the spark. That’s when I started to truly understand what had been missing all along me. My purpose.
-I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndrome and in their place, I found a new version of myself: confident, clear, and connected to my deeper calling. Looking back, I realize the seeds were planted long ago. In fact, in 2004, during a hospitality course, I was introduced to goal setting and self-work. I just wasn’t ready to water those seeds until now.
-`;
-
-  const shortText = fullText.split(" ").slice(0, 70).join(" ") + "...";
 
   return (
     <div className="mx-auto  ">
@@ -50,7 +37,7 @@ I began to shed layers of stress, anxiety, limiting beliefs, and imposter syndro
             className="rounded-lg shadow-xl w-full lg:h-[600px] md:h-[450px] sm:[190px] h-[290px] transform hover:scale-105 transition-transform duration-500 animate-fade-in self-start object-cover"
           />
 
-          {/* Badge Images - shown only when expanded */}
+          {/* Badge Images */}
           {isExpanded && (
             <div className="flex flex-wrap justify-center gap-20 mt-20 animate-fade-in transition-opacity duration-500 ease-in-out">
               <img
