@@ -16,6 +16,7 @@ import Pricing from './components/Pricing';
 import PersonalPackage from './components/PersonalPackage';
 import CareerPackage from './components/CareerPricing';
 import MindfulnessPackage from './components/MindfulnessPackage';
+import NewsletterForm from './components/NewsLetter';
 
 function App() {
   // Create refs for each section
@@ -64,6 +65,7 @@ function App() {
                
                   <AboutMe />
                 </div>
+                
                 <div  style={{ paddingTop: '80px'}} ref={storiesRef}>
                 
                 <Testimonials />
@@ -71,7 +73,10 @@ function App() {
                 <div style={{ paddingTop: '60px'}} ref={pricingRef}>
                 <Pricing/>
                 </div>
-                
+                <div className='mb-5'>
+                   <NewsletterForm/>
+                </div>
+               
                 
                 <Footer />
               </>
